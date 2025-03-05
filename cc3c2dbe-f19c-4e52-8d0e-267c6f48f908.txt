@@ -1,0 +1,597 @@
+You are tasked with identifying and extracting key details of contracts, you need to identify the parties involved, key dates, material obligations, and termination conditions.
+0
+Extract the following key details from the contract provided.  For each detail, summarize the information concisely and rephrase it in your own words, avoiding direct quotations.
+
+**Extract the following Contract Details:**
+
+*   **Parties:** Identify and list the full legal names of all parties involved in the contract agreement.
+*   **Key Dates:**  Extract and list important dates, including:
+    *   Effective Date
+    *   Expiration Date (if present)
+    *   Any other critical dates mentioned.
+*   **Material Obligations:**  Summarize the primary responsibilities and duties of each party. Focus on the core actions each party is obligated to perform under the contract.
+*   **Termination Conditions:** Outline the conditions and procedures for contract termination by either party. Include notice periods and triggering events for termination rights.
+
+Present the extracted details in a clear, easy-to-read format.
+1
+Analyze the following contract text and extract the key details listed below. For each detail, carefully read the relevant sections of the contract. Summarize the information concisely in your own words, ensuring you rephrase the original text and avoid direct quotations. Focus on extracting the core meaning. Present the extracted details in a clear and easy-to-read format, using headings for each detail (Parties, Key Dates, Material Obligations, Termination Conditions) and bullet points within each section for specific pieces of information.
+
+**Extract the following Contract Details:**
+
+*   **Parties:** Identify and list the full legal names of all parties involved in the contract agreement.
+*   **Key Dates:** Extract and list important dates, including:
+    *   Effective Date
+    *   Expiration Date (if present)
+    *   Any other critical dates mentioned in the contract.
+*   **Material Obligations:** Summarize the primary responsibilities and duties of each party. Focus on the core actions each party is obligated to perform under the contract.
+*   **Termination Conditions:** Outline the conditions and procedures for contract termination by either party. Include notice periods and triggering events that give rise to termination rights.
+2
+Analyze the following contract text to extract key details and demonstrate understanding of the agreement.  Carefully read the relevant sections for each detail.  Summarize the information concisely in your own words, ensuring you rephrase the original text to reflect your comprehension and avoid direct quotations.  Focus on extracting the core meaning and presenting it in an easily understandable format.  Use headings for each detail (Parties, Key Dates, Material Obligations, Termination Conditions) and bullet points within each section for specific pieces of information.
+
+**Extract the following Contract Details:**
+
+*   **Parties:** Identify and list the full legal names of all parties involved in the contract agreement, as understood from the contract.
+*   **Key Dates:** Extract and list important dates, including:
+    *   Effective Date, as defined in the contract.
+    *   Expiration Date (if present in the contract, otherwise indicate if not specified).
+    *   Any other critical dates mentioned in the contract that are essential to understanding the agreement.
+*   **Material Obligations:** Summarize the primary responsibilities and duties of each party, focusing on the core actions each party is obligated to perform as stated in the contract.
+*   **Termination Conditions:** Outline the conditions and procedures for contract termination by either party, including notice periods and triggering events that grant termination rights, as described in the contract.
+3
+Analyze the following contract text to extract key details and demonstrate understanding of the agreement. Carefully read the contract to identify and summarize the requested information.  Present your analysis in an easy-to-read format, rephrasing the original text to reflect your comprehension and avoid direct quotations. Focus on extracting the core meaning and presenting it concisely in your own words.  Use the following headings and bullet points to structure your output.
+
+**Contract Detail Extraction:**
+
+**Parties:**
+*   List the full legal names of all parties involved.
+
+**Key Dates:**
+*   Effective Date: [Date]
+*   Expiration Date: [Date, or state "Not Specified" if not present in the contract]
+*   Other Critical Dates: [Date and a brief description of its significance from the contract]
+
+**Material Obligations:**
+*   Summarize the primary responsibilities for each party.
+
+**Termination Conditions:**
+*   Outline the conditions under which each party can terminate the contract.
+*   Specify any required notice periods for termination.
+*   Describe the triggering events that allow for contract termination.
+4
+Analyze the provided contract text to extract key details and demonstrate your understanding of the agreement. Carefully read the contract and summarize the requested information under the specified headings. Present your analysis in an easy-to-read format, rephrasing the original contract language to reflect your comprehension and avoid direct quotations. Focus on concisely extracting the core meaning and expressing it in your own words. Use the following headings and bullet points to structure your output.
+
+**Contract Detail Extraction:**
+
+**Parties:**
+*   Identify and list the full legal names of all parties involved in the contract.
+
+**Key Dates:**
+*   Effective Date: [State the contract's effective date.]
+*   Expiration Date: [State the contract's expiration date, if specified, otherwise state "Not Specified".]
+*   Other Critical Dates: [List any other significant dates mentioned in the contract and briefly describe their significance as defined in the contract.]
+
+**Material Obligations:**
+*   Summarize the primary responsibilities and duties of each party as outlined in the contract.
+
+**Termination Conditions:**
+*   Outline the conditions under which each party can terminate the contract.
+*   Specify any required notice periods for termination as stated in the contract.
+*   Describe the triggering events or circumstances that allow for contract termination for each party according to the contract terms.
+5
+Analyze the provided contract text to extract key details and demonstrate your understanding of the agreement. Carefully read the contract and summarize the requested information under the specified headings.  Present your analysis in an easy-to-read textual format, rephrasing the original contract language to reflect your comprehension and avoid direct quotations. Focus on concisely extracting the core meaning and expressing it in your own words. Use the following headings and bullet points to structure your output.
+
+**Contract Detail Extraction:**
+
+**Parties:**
+*   Identify and list the full legal names of all parties involved in the contract.
+
+**Key Dates:**
+*   Effective Date: [State the contract's effective date.]
+*   Expiration Date: [State the contract's expiration date, if specified, otherwise state "Not Specified".]
+*   Other Critical Dates: [List any other significant dates mentioned in the contract and briefly describe their significance as defined in the contract.]
+
+**Material Obligations:**
+*   Summarize the primary responsibilities and duties of each party as outlined in the contract.
+
+**Termination Conditions:**
+*   Outline the conditions under which each party can terminate the contract.
+*   Specify any required notice periods for termination as stated in the contract.
+*   Describe the triggering events or circumstances that allow for contract termination for each party according to the contract terms.
+6
+Extract the following key details from the provided contract text and demonstrate your understanding of the agreement by rephrasing the information in your own words. Avoid direct quotations and focus on concisely summarizing the core meaning under the specified headings.
+
+**Contract Detail Extraction:**
+
+**Parties:**
+*   Identify and list the full legal names of all parties involved in the contract.
+
+**Key Dates:**
+*   Effective Date: [State the contract's effective date.]
+*   Expiration Date: [State the contract's expiration date, if specified, otherwise state "Not Specified".]
+*   Other Critical Dates: [List any other significant dates mentioned in the contract and briefly describe their significance as defined in the contract.]
+
+**Material Obligations:**
+*   Summarize the primary responsibilities and duties of each party as outlined in the contract.
+
+**Termination Conditions:**
+*   Outline the conditions under which each party can terminate the contract.
+*   Specify any required notice periods for termination as stated in the contract.
+*   Describe the triggering events or circumstances that allow for contract termination for each party according to the contract terms.
+7
+Carefully review the contract text provided below. Extract the following key details and present them in an easily readable format using your own words.  Avoid copying sentences directly from the contract. Instead, concisely summarize the essential information under each heading to demonstrate your comprehension of the agreement.
+
+**Contract Detail Extraction:**
+
+**Parties:**
+*   Identify and list the complete legal names of all parties participating in this contract.
+
+**Key Dates:**
+*   Effective Date: State the date on which this contract becomes effective.
+*   Expiration Date: State the date this contract expires. If no expiration date is given, explicitly state "Not Specified".
+*   Other Critical Dates: Identify and list any other significant dates mentioned within the contract. For each date, briefly describe its contractual significance as defined in the document.
+
+**Material Obligations:**
+*   Summarize the primary responsibilities and duties that each party is obligated to perform according to the contract.
+
+**Termination Conditions:**
+*   Outline the conditions under which each party is permitted to terminate this contract.
+*   For each termination condition, explicitly state the required notice period if specified in the contract.
+*   Describe the specific events or circumstances that trigger the right for each party to terminate the contract, as detailed within the contract terms.
+8
+Carefully review the contract text provided below. Extract the following key details and present them in an easily readable format using concise summaries and your own words to demonstrate your understanding of the agreement. Avoid copying sentences directly from the contract.  Organize your output using bullet points or short paragraphs under each heading.
+
+**Contract Detail Extraction:**
+
+**Parties:**
+*   Identify and list the complete legal names of all parties participating in this contract.
+
+**Key Dates:**
+*   Effective Date: State the date on which this contract becomes effective.
+*   Expiration Date: State the date this contract expires. If no expiration date is given, explicitly state "Not Specified".
+*   Other Critical Dates: Identify and list any other significant dates mentioned within the contract. For each date, briefly describe its contractual significance as defined in the document.
+
+**Material Obligations:**
+*   Summarize the primary responsibilities and duties that each party is obligated to perform according to the contract. Clearly present the obligations for each party.
+
+**Termination Conditions:**
+*   Outline the conditions under which each party is permitted to terminate this contract. For each termination condition, provide the following details if available in the contract:
+    *   Condition Name: Briefly describe the termination condition.
+    *   Party Permitted to Terminate: Specify which party can terminate under this condition.
+    *   Notice Period: State the required notice period. If none specified, state "Not Specified".
+    *   Triggering Event/Circumstances: Describe the events or circumstances that allow for termination under this condition.
+9
+Carefully review the contract text provided below.  Your goal is to extract the most important details from this contract and present them in a highly readable format.  Use concise summaries and your own words to demonstrate a clear understanding of the agreement, avoiding direct copying of sentences. Organize your output clearly using bullet points or short paragraphs under each heading.
+
+**Contract Detail Extraction:**
+
+**Parties Involved:**
+*   Identify and list the full legal names of each party that is a signatory to this contract.
+
+**Important Dates:**
+*   Effective Date:  State the date on which this contract officially comes into effect.
+*   Expiration Date: State the date this contract is set to expire. If no expiration date is specified within the contract, explicitly state "Not Specified".
+*   Other Significant Dates: Identify and list any other critical dates mentioned within the contract. For each date, briefly explain its contractual significance and purpose as defined in the document.
+
+**Essential Obligations:**
+*   Summarize the key responsibilities and duties that each party is legally obligated to perform under this contract. Clearly outline the specific obligations for each party involved.
+
+**Contract Termination:**
+*   Outline the conditions under which each party has the right to terminate this contract. For each termination condition identified, provide the following details if they are specified in the contract:
+    *   Termination Condition: Briefly describe the reason or basis for termination.
+    *   Party Who Can Terminate: Indicate which party or parties are permitted to terminate under this condition.
+    *   Required Notice Period: State the duration of the notice period that must be given. If no notice period is specified, state "Not Specified".
+    *   Triggering Events: Describe the specific events or circumstances that must occur to allow for termination under this condition.
+10
+**Contract Detail Extraction:**
+
+**Parties Involved:**
+*   Identify and list the full legal names of each party that is a signatory to this contract.
+
+**Important Dates:**
+*   Effective Date:  State the date on which this contract officially comes into effect.
+*   Expiration Date: State the date this contract is set to expire. If no expiration date is specified within the contract, explicitly state "Not Specified".
+*   Other Significant Dates: Identify and list any other critical dates mentioned within the contract, such as dates related to performance milestones, payments, or reviews. For each date, briefly explain its contractual significance and purpose as defined in the document.
+
+**Essential Obligations:**
+*   Summarize the key responsibilities and duties that each party is legally obligated to perform under this contract. Clearly outline the specific obligations for each party involved, listing them separately for each party.
+
+**Contract Termination:**
+*   Outline the conditions under which each party has the right to terminate this contract. For each termination condition identified, provide the following details if they are specified in the contract:
+    *   Termination Condition: Briefly describe the reason or basis for termination.
+    *   Party Who Can Terminate: Indicate which party or parties are permitted to terminate under this condition.
+    *   Required Notice Period: State the duration of the notice period that must be given. If no notice period is specified, state "Not Specified".
+    *   Triggering Events: Describe the specific events or circumstances that must occur to allow for termination under this condition.
+11
+**Contract Detail Extraction:**
+
+**Parties Involved:**
+*   Identify and list the complete legal names of all parties who are signatories to this contract. Ensure all signatory parties are included in the list.
+
+**Important Dates:**
+*   Effective Date:  State the exact date on which this contract becomes legally binding and active.
+*   Expiration Date: State the precise date this contract is scheduled to terminate. If the contract does not specify an expiration date, explicitly state "Not Specified".
+*   Other Significant Dates: Identify and list any other crucial dates mentioned in the contract. For each date, clearly explain its contractual significance and purpose as defined in the document. Include dates related to milestones, payments, reviews, or other key events.
+
+**Essential Obligations:**
+*   Summarize the core responsibilities and duties that each party is legally bound to perform under this contract. For each party involved, clearly and separately outline their specific obligations, ensuring each party's duties are listed under their respective name.
+
+**Contract Termination:**
+*   Outline all conditions under which any party has the right to terminate this contract. For each termination condition identified, provide the following details as specified in the contract:
+    *   Termination Condition: Concisely describe the reason or basis that allows for contract termination.
+    *   Party Who Can Terminate: Specify which party or parties are granted the right to terminate under this condition.
+    *   Required Notice Period: State the exact duration of advance notice required for termination. If no notice period is specified, state "Not Specified".
+    *   Triggering Events: Describe the precise events or circumstances that must occur to activate the right to terminate under this specific condition.
+12
+**Contract Detail Extraction:**
+
+**Parties Involved:**
+*   Identify and list the complete legal names of all parties who are signatories to this contract. Ensure all signatory parties are included in the list.
+
+**Important Dates:**
+*   Effective Date:  State the exact date on which this contract becomes legally binding and active.
+*   Expiration Date: State the precise date this contract is scheduled to terminate. If the contract does not specify an expiration date, explicitly state "Not Specified".
+*   Other Significant Dates: Identify and list any other crucial dates mentioned in the contract. For each date, clearly explain its contractual significance and purpose as defined in the document. Include dates related to milestones, payments, reviews, or other key events.
+
+**Essential Obligations:**
+*   Summarize the core responsibilities and duties that each party is legally bound to perform under this contract. For each party involved, clearly and separately outline their specific obligations in bullet points under their respective name.
+
+**Contract Termination:**
+*   Outline all conditions under which any party has the right to terminate this contract. For each termination condition identified, provide the following details as specified in the contract:
+    *   Termination Condition: Concisely describe the reason or basis that allows for contract termination.
+    *   Party Who Can Terminate: Specify which party or parties are granted the right to terminate under this condition.
+    *   Required Notice Period: State the exact duration of advance notice required for termination. If no notice period is specified, state "Not Specified".
+    *   Triggering Events: Describe the precise events or circumstances that must occur to activate the right to terminate under this specific condition. Provide examples if available in the contract, such as breach of contract or non-payment.
+13
+**Contract Detail Extraction:**
+
+**Parties Involved:**
+*   Extract and list the full legal names of all entities formally recognized as parties to this contract. Ensure every signatory party identified in the contract is included.
+
+**Important Dates:**
+*   Effective Date: Identify and state the precise date this contract legally commences and becomes active.
+*   Expiration Date: Identify and state the exact date this contract is scheduled to terminate. If no expiration date is explicitly stated within the contract, indicate "Not Specified".
+*   Other Significant Dates: Identify and enumerate any additional critical dates mentioned throughout the contract. For each identified date, clearly articulate its contractual significance and purpose as defined within the document. Include dates pertaining to milestones, payment schedules, review periods, or other key contractual events.
+
+**Essential Obligations:**
+*   Summarize the fundamental responsibilities and duties each party is legally mandated to perform under this contract. For each party, distinctly outline their specific obligations in a bulleted list format, presented under their respective names. Focus on core obligations and avoid extraneous details.
+
+**Contract Termination:**
+*   Detail all stipulated conditions under which any party possesses the right to terminate this contract. For each termination condition, provide the following information as specified in the contract:
+    *   Termination Condition: Concisely describe the reason or basis that permits contract termination.
+    *   Party Who Can Terminate: Specify which party or parties are granted the termination right under this condition.
+    *   Required Notice Period: State the precise duration of advance notice mandated for termination. If no notice period is specified, state "Not Specified".
+    *   Triggering Events: Describe the specific events or circumstances that must occur to activate the termination right for this condition. Provide examples directly from the contract, such as instances of breach or non-payment, if available. If possible, reference the contract section or clause number where this termination condition is detailed.
+14
+**Contract Detail Extraction:**
+
+**Parties Involved:**
+*   Identify and list the full legal names of all entities formally recognized as parties to this contract. Ensure every signatory legal entity identified within the contract is included in the list.
+
+**Important Dates:**
+*   Effective Date: Extract and state the precise date upon which this contract legally becomes effective and active.
+*   Expiration Date: Extract and state the exact date this contract is scheduled to terminate. If no expiration date is explicitly stated within the contract, indicate "Not Specified".
+*   Key Contractual Dates: Identify and enumerate any other critical dates mentioned throughout the contract that carry contractual significance. For each date identified, clearly articulate its contractual significance and defined purpose as outlined within the document. Include dates pertaining to milestones, payment schedules, review periods, performance deadlines, or other key contractual events, and briefly explain their importance in the context of the contract.
+
+**Essential Obligations:**
+*   Summarize the core responsibilities and duties each party is legally obligated to perform under this contract. For each party, distinctly outline their specific, essential obligations in a bulleted list format under their respective names. Focus on summarizing the fundamental 'what' and 'who' of each party's duties, avoiding extraneous or overly detailed information.
+
+**Contract Termination:**
+*   Detail all stipulated conditions under which any party possesses the right to terminate this contract, as specified within the contract document. For each termination condition, extract and provide the following information directly as described in the contract:
+    *   Termination Condition: Concisely describe the specific reason or circumstance that grants the right to terminate the contract.
+    *   Party Who Can Terminate: Identify the party or parties granted the termination right under this specific condition.
+    *   Required Notice Period: State the exact duration of advance notice required for termination, as stipulated. If no notice period is specified for this condition, state "Not Specified".
+    *   Triggering Circumstances or Events (with Contract Examples and Clause Reference if available): Describe the precise events, circumstances, or breaches that must occur to activate the termination right for this condition. Provide brief examples or keywords directly from the contract language illustrating these triggers, and reference the specific contract section or clause number where this termination condition is detailed if possible.
+15
+**Contract Detail Extraction:**
+
+**Parties Involved:**
+*   List all legal entities formally recognized as parties to this contract. Provide the full legal name of each party as stated in the contract in a simple, enumerated list.
+
+**Important Dates:**
+*   Effective Date: State the precise date this contract becomes legally effective.
+*   Expiration Date: State the exact date this contract is scheduled to terminate. If no expiration date is explicitly mentioned, indicate "Not Specified".
+*   Key Contractual Dates: Identify and list any other dates within the contract that carry contractual significance. For each date, briefly explain its contractual significance and purpose as defined in the contract. Include dates related to milestones, payment schedules, review periods, performance deadlines, or other key events.  Present each date and its significance as a separate bullet point.
+
+**Essential Obligations:**
+*   For each party identified, summarize their core responsibilities and duties under this contract.  Focus on the fundamental 'what' and 'who' of each party's obligations, avoiding unnecessary detail.  Present each party's essential obligations as a bulleted list under their name.
+
+**Contract Termination:**
+*   Detail all conditions under which any party has the right to terminate this contract. For each termination condition, provide the following information as specified in the contract:
+    *   Termination Condition: Briefly describe the specific reason or circumstance allowing contract termination.
+    *   Party Who Can Terminate: Identify which party or parties possess the termination right for this condition.
+    *   Required Notice Period: State the exact notice period required for termination. Indicate "Not Specified" if no notice period is mentioned for this condition.
+    *   Triggering Circumstances or Events: Describe the specific events, circumstances, or breaches that trigger the termination right. Provide short example phrases or keywords directly from the contract illustrating these triggers. If available, include the contract section or clause number where this condition is detailed.
+16
+**Contract Detail Extraction:**
+
+**Parties Involved:**
+*   Identify and list all legal entities explicitly recognized as parties within the contract. Provide the complete legal name of each party exactly as it is written in the contract, presented in a simple, enumerated list.
+
+**Important Dates:**
+*   Effective Date: State the precise date on which this contract becomes legally binding and effective.
+*   Expiration Date: State the exact date on which this contract is scheduled to terminate or expire. If no explicit expiration date is stated within the contract, indicate "Not Specified".
+*   Key Contractual Dates: Identify and list any other dates mentioned within the contract that hold contractual significance. For each date identified, clearly explain its contractual significance and purpose as explicitly defined in the contract. Include dates pertaining to milestones, payment schedules, review periods, performance deadlines, or other critical events.  Present each date and its corresponding significance as a separate bullet point.
+
+**Essential Obligations:**
+*   For each party identified, summarize their core contractual responsibilities and duties as stipulated in this contract. Focus on outlining the fundamental actions ('what') each party is obligated to perform and the responsible party ('who'), while avoiding unnecessary details or verbose phrasing.  List each party and then present their essential obligations as a bulleted list directly beneath their name.
+
+**Contract Termination:**
+*   Detail all conditions under which any party is granted the right to terminate this contract. For each distinct termination condition, extract and provide the following information precisely as specified within the contract:
+    *   Termination Condition: Briefly summarize the specific reason, circumstance, or event that permits contract termination under this condition.
+    *   Party Authorized to Terminate: Identify which specific party or parties are granted the right to terminate the contract under this condition.
+    *   Required Notice Period: State the exact notice period that must be provided prior to termination. If no notice period is specified for this particular termination condition within the contract, indicate "Not Specified".
+    *   Triggering Circumstances or Events: Describe the specific events, circumstances, breaches, or failures that act as triggers for this termination right.  Include short example phrases or keywords directly quoted or closely paraphrased from the contract text that illustrate these triggers. If available within the contract, also include the relevant contract section or clause number where this termination condition is detailed.
+17
+**Contract Detail Extraction from Document:**
+
+**Parties Involved:**
+*   Identify and list all legal entities explicitly stated as parties within the contract document. Provide the complete legal name of each party exactly as it is written in the contract. Present the list in a simple, enumerated format.
+
+**Important Dates:**
+*   Effective Date: Extract and state the precise date on which this contract becomes legally binding and effective, as mentioned in the document.
+*   Expiration Date: Extract and state the exact date on which this contract is scheduled to terminate or expire, as mentioned in the document. If no explicit expiration date is stated within the contract document, indicate "Not Specified".
+*   Other Significant Contractual Dates: Identify and list any other dates mentioned within the contract document that carry contractual significance. For each date, clearly explain its contractual significance and purpose as explicitly defined in the contract document. Include dates related to milestones, payment schedules, review periods, performance deadlines, or other critical events. Present each date and its corresponding significance as a separate bullet point.
+
+**Essential Obligations:**
+*   For each party identified, summarize their core contractual responsibilities and duties as stipulated in this contract document. Focus on outlining the essential actions ('what') each party is obligated to perform and the responsible party ('who'), while avoiding unnecessary details or verbose phrasing. List each party, and then present their essential obligations as a bulleted list directly beneath their name.
+
+**Contract Termination:**
+*   Detail all conditions under which any party is granted the right to terminate this contract document. For each distinct termination condition, extract and provide the following information precisely as specified within the contract document:
+    *   Termination Condition: Briefly summarize the specific reason, circumstance, or event that permits contract termination under this condition.
+    *   Party Authorized to Terminate: Identify which specific party or parties are granted the right to terminate the contract under this condition.
+    *   Required Notice Period: State the exact notice period that must be provided prior to termination. If no notice period is specified for this particular termination condition within the contract document, indicate "Not Specified".
+    *   Triggering Circumstances or Events: Describe the specific events, circumstances, breaches, or failures that act as triggers for this termination right. Include short example phrases or keywords directly quoted or closely paraphrased from the contract text that illustrate these triggers. If available within the contract document, also include the relevant contract section or clause number where this termination condition is detailed.
+18
+**Contract Detail Extraction from Document:**
+
+**Parties Involved:**
+*   Identify and enumerate all legal entities explicitly identified as parties within the contract document. Provide the complete legal name of each party exactly as stated in the contract. Present as a numbered list.
+
+**Key Contractual Dates:**
+*   Effective Date: Extract and state the precise effective date of the contract, as specified in the document.
+*   Expiration Date: Extract and state the exact expiration date of the contract, as specified in the document. If no explicit expiration date is provided, indicate "Not Specified".
+*   Other Significant Dates: Identify and list any other dates mentioned in the contract document that have contractual significance. For each date, clearly explain its contractual significance and purpose, *as explicitly defined within the contract*. Include dates related to milestones, payment schedules, review periods, performance deadlines, or critical events. Present each date and its corresponding significance as a separate bullet point.
+
+**Essential Contractual Obligations:**
+*   For each party identified, summarize their core contractual obligations and duties as stipulated in the contract document. Focus on outlining the essential actions ('what') each party is obligated to perform and the responsible party ('who'), while avoiding unnecessary details or verbose phrasing. List each party, and then present their essential obligations as a bulleted list directly beneath their name.
+
+**Contract Termination Conditions:**
+*   Detail all conditions under which any party is granted the right to terminate the contract document. For each distinct termination condition, extract and provide the following information *precisely as specified within the contract document*:
+    *   Termination Condition: Briefly summarize the specific reason, circumstance, or event that permits contract termination under this condition.
+    *   Party Authorized to Terminate: Identify which specific party or parties are granted the right to terminate under this condition.
+    *   Required Notice Period: State the exact notice period that must be provided prior to termination. If no notice period is specified for this particular termination condition, indicate "Not Specified".
+    *   Triggering Circumstances or Events: Describe the specific events, circumstances, breaches, or failures that act as triggers for this termination right. Include short example phrases or keywords *directly quoted or closely paraphrased from the contract text* that illustrate these triggers. If available within the contract document, also include the relevant contract section or clause number where this termination condition is detailed.
+19
+**Contract Detail Extraction from Document:**
+
+**Parties Involved:**
+*   Identify and enumerate all legal entities explicitly identified as parties within the contract document. Provide the complete legal name of each party exactly as stated in the contract. Present as a numbered list, with each party's legal name in **bold**.
+
+**Key Contractual Dates:**
+*   Effective Date: Extract and state the precise effective date of the contract, as specified in the document. Output the date in YYYY-MM-DD format if possible.
+*   Expiration Date: Extract and state the exact expiration date of the contract, as specified in the document. Output the date in YYYY-MM-DD format if possible. If no explicit expiration date is provided, indicate "Not Specified".
+*   Other Significant Dates: Identify and list any other dates mentioned in the contract document that have contractual significance. For each date, clearly explain its contractual significance and purpose, *as explicitly defined within the contract*. Include dates related to milestones, payment schedules, review periods, performance deadlines, or critical events. Present each date and its corresponding significance as a separate bullet point.  Prioritize dates that are explicitly labeled with their significance in the contract (e.g., "Commencement Date", "Payment Due Date"). Output dates in YYYY-MM-DD format if possible.
+
+**Essential Contractual Obligations:**
+*   For each party identified, summarize their core contractual obligations and duties as stipulated in the contract document. Focus on outlining the essential actions ('what') each party is obligated to perform and the responsible party ('who'), while being concise and avoiding unnecessary details or verbose phrasing. List each party, and then present their essential obligations as a bulleted list directly beneath their name.  Prioritize identifying the most critical obligations for each party.
+
+**Contract Termination Conditions:**
+*   Detail all conditions under which any party is granted the right to terminate the contract document. For each distinct termination condition, extract and provide the following information *precisely as specified within the contract document*:
+    *   Termination Condition: Briefly summarize the specific reason, circumstance, or event that permits contract termination under this condition.
+    *   Party Authorized to Terminate: Identify which specific party or parties are granted the right to terminate under this condition.
+    *   Required Notice Period: State the exact notice period that must be provided prior to termination. If no notice period is specified for this particular termination condition, indicate "Not Specified".
+    *   Triggering Circumstances or Events: Describe the specific events, circumstances, breaches, or failures that act as triggers for this termination right. Include short example phrases or keywords *directly quoted or closely paraphrased from the contract text* that illustrate these triggers. When available, also include the relevant contract section or clause number where this termination condition is detailed, presented in parentheses after the triggering circumstances.
+20
+**Contract Detail Extraction from Document:**
+
+This prompt is designed to extract key details from a contract document and present them in an easily readable, outlined format.  Focus on understanding the context and rephrasing information concisely rather than copying full sentences.
+
+**Parties Involved:**
+*   Identify and enumerate all legal entities explicitly identified as parties within the contract document. Provide the complete legal name of each party exactly as stated in the contract. Present as a numbered list, with each party's legal name in **bold**.
+
+**Key Contractual Dates:**
+*   Effective Date: Extract and state the precise effective date of the contract, as specified in the document. Output the date in YYYY-MM-DD format if possible.
+*   Expiration Date: Extract and state the exact expiration date of the contract, as specified in the document. Output the date in YYYY-MM-DD format if possible. If no explicit expiration date is provided, indicate "Not Specified".
+*   Other Significant Dates: Identify and list any other dates mentioned in the contract document that have contractual significance. For each date, clearly explain its contractual significance and purpose, *as explicitly defined within the contract*. Include dates related to milestones, payment schedules, review periods, performance deadlines, or critical events. Present each date and its corresponding significance as a separate bullet point.  Prioritize dates that are explicitly labeled with their significance in the contract (e.g., "Commencement Date", "Payment Due Date"). Output dates in YYYY-MM-DD format if possible.
+
+**Essential Contractual Obligations:**
+*   For each party identified, concisely summarize their core contractual obligations and duties as stipulated in the contract document. Focus on outlining the essential actions ('what') each party is obligated to perform and the responsible party ('who'). Be concise, avoid unnecessary details or verbose phrasing, and prioritize the most critical obligations for each party. List each party, and then present their essential obligations as a bulleted list directly beneath their name.
+
+**Contract Termination Conditions:**
+*   Identify and detail each distinct condition under which any party is granted the right to terminate the contract document. For each termination condition, present the following information in a structured format:
+
+    1.  **Termination Condition:** Concisely summarize the specific reason, circumstance, or event that permits contract termination.
+        *   *Party Authorized to Terminate:* Specify which party or parties have the right to terminate under this condition.
+        *   *Required Notice Period:* State the exact notice period required prior to termination. If no notice period is specified, indicate "Not Specified".
+        *   *Triggering Circumstances or Events:* Describe the specific events, circumstances, breaches, or failures that trigger this termination right. Include short example phrases or keywords, either directly quoted or closely paraphrased from the contract, that illustrate these triggers. If available, include the relevant contract section or clause number in parentheses after the triggering circumstances.
+
+The output should be easily readable textual data, outlining the extracted contract details without copying entire sentences.
+21
+**Enhanced Contract Detail Extraction Prompt:**
+
+This prompt is designed for advanced extraction of key details from a contract document, presented in a highly readable, structured outline. Focus on demonstrating a deep understanding of the contractual context, concisely rephrasing information to enhance clarity, and avoiding verbatim copying.
+
+**1. Parties to the Agreement:**
+*   Identify and list each distinct legal entity recognized as a party within the contract. Provide the complete, verbatim legal name for each party as it appears in the contract. Present as a numbered list with each party's legal name in **bold**.
+
+**2. Critical Contract Dates:**
+*   **Effective Date:** Extract and explicitly state the date on which the contract becomes legally binding and operational. Output in YYYY-MM-DD format.
+*   **Expiration Date:** Extract and explicitly state the date on which the contract term concludes, if specified. Output in YYYY-MM-DD format. If no expiration date is explicitly stated within the contract, indicate "Indefinite Term".
+*   **Significant Contractual Dates:** Identify and detail all other dates within the contract that carry legal or operational significance to the agreement's terms or execution. For each date, precisely explain its contractual function and importance *as defined by the contract*. Include dates pertaining to milestones, payment schedules, review periods, performance obligations, deadlines, or other critical contractual events. For each date, present the date and its corresponding significance as a distinct bullet point. Prioritize dates that are explicitly labeled with their contractual purpose within the contract text (e.g., "Commencement Date," "First Payment Date," "Review Deadline"). Output dates in YYYY-MM-DD format.
+
+**3. Core Contractual Commitments:**
+*   For each party identified in section 1, succinctly summarize their fundamental contractual commitments and obligations as expressly defined within the contract. Focus on outlining the essential actions ('what' is required) and the obligated party ('who' is responsible). Prioritize clarity and conciseness, eliminating superfluous details or redundant phrasing, and emphasizing the most critical duties for each party. Organize this section by listing each party, followed by a bulleted list of their core obligations directly underneath their name.
+
+**4. Contract Termination Provisions:**
+*   Identify and meticulously detail each distinct condition under which any party is granted the unilateral right to terminate the contract. For every termination provision, present the following elements in a structured, numbered format:
+
+    1.  **Termination Provision Summary:** Concisely summarize the precise condition, circumstance, or event that grants a party the right to terminate the contract.
+        *   *Terminating Party/Parties:* Specify which party or parties are authorized to exercise the termination right under this specific condition.
+        *   *Required Notice Period:* State the exact duration of advance notice required prior to the termination taking effect. If no notice period is specified in the contract for this condition, indicate "No Notice Specified".
+        *   *Triggering Events or Circumstances:* Describe the specific events, circumstances, breaches, or failures that activate this termination right. Include concise illustrative phrases or keywords, either directly quoted or closely paraphrased from the contract language, that exemplify these triggers. Where available and relevant, include the specific contract section or clause number pertaining to the termination provision in parentheses after the triggering circumstances.
+
+The output should be structured textual data, presenting a clear and easily understandable outline of the extracted contract details, achieved through intelligent rephrasing and summarization, not by copying entire sentences.
+22
+**Enhanced Contract Detail Extraction Prompt:**
+
+This prompt is designed for advanced extraction of key details from a contract document, presented in a highly readable, structured outline. Focus on demonstrating a deep understanding of the contractual context, concisely rephrasing information to enhance clarity, and avoiding verbatim copying.
+
+**1. Parties to the Agreement:**
+*   Identify and list each distinct legal entity recognized as a party within the contract. Provide the complete, verbatim legal name for each party as it appears in the contract. Present as a numbered list with each party's legal name in **bold**.
+
+**2. Critical Contract Dates:**
+*   **Effective Date:** Extract and explicitly state the date on which the contract becomes legally binding and operational. Output in YYYY-MM-DD format.
+*   **Expiration Date:** Extract and explicitly state the date on which the contract term concludes, if specified. Output in YYYY-MM-DD format. If no expiration date is explicitly stated within the contract, indicate "Indefinite Term".
+*   **Significant Contractual Dates:** Identify and comprehensively detail all other dates within the contract that carry legal or operational significance to the agreement's terms or execution. For each date, precisely explain its contractual function and importance *as defined by the contract*, focusing on interpreting the *contractual meaning* of the date, not just the date itself. Include dates pertaining to milestones, payment schedules, review periods, performance obligations, deadlines, or other critical contractual events. For each date, present the date and its corresponding significance as a distinct bullet point. Prioritize dates that are explicitly labeled with their contractual purpose within the contract text (e.g., "Commencement Date," "First Payment Date," "Review Deadline"). Output dates in YYYY-MM-DD format.
+
+**3. Core Contractual Commitments:**
+*   For each party identified in section 1, succinctly summarize their *core* contractual commitments and obligations. Focus on outlining the *essential actions* ('what' is required) and the obligated party ('who' is responsible) to fulfill the agreement's primary objectives. Prioritize clarity and conciseness, eliminating superfluous details or redundant phrasing, and emphasizing the most critical duties for each party. Organize this section by listing each party, followed by a bulleted list of their core obligations directly underneath their name.
+
+**4. Contract Termination Provisions:**
+*   Identify and meticulously detail each distinct condition under which any party is granted the unilateral right to terminate the contract. For each termination provision, aim to understand and articulate the *rationale* or underlying principle, if discernible from the text. For every termination provision, present the following elements in a structured, numbered format:
+
+    1.  **Termination Provision Summary:** Concisely summarize the precise condition, circumstance, or event that grants a party the right to terminate the contract.
+        *   *Terminating Party/Parties:* Specify which party or parties are authorized to exercise the termination right under this specific condition.
+        *   *Required Notice Period:* State the exact duration of advance notice required prior to the termination taking effect. If no notice period is specified in the contract for this condition, indicate "No Notice Specified".
+        *   *Triggering Events or Circumstances:* Describe the specific events, circumstances, breaches, or failures that activate this termination right. Include concise illustrative phrases or keywords, either directly quoted or closely paraphrased from the contract language, that exemplify these triggers. Where available and relevant, include the specific contract section or clause number pertaining to the termination provision in parentheses after the triggering circumstances.
+
+The output should be structured textual data, presenting a clear and easily understandable outline of the extracted contract details, achieved through intelligent rephrasing and summarization, not by copying entire sentences.
+23
+**Enhanced Contract Detail Extraction Prompt:**
+
+This prompt is designed for advanced extraction of key details from a contract document, presented in a highly readable, structured outline. Focus on demonstrating a deep understanding of the contractual context, concisely rephrasing information to enhance clarity, and strictly avoiding verbatim copying of sentences.
+
+**1. Parties to the Agreement:**
+*   Identify and list each distinct legal entity recognized as a party within the contract. Provide the complete, verbatim legal name for each party as it appears in the contract. Present as a numbered list with each party's legal name in **bold**.
+
+**2. Critical Contract Dates:**
+*   **Effective Date:** Extract and explicitly state the date on which the contract becomes legally binding and operational. Output in YYYY-MM-DD format.
+*   **Expiration Date:** Extract and explicitly state the date on which the contract term concludes, if specified. Output in YYYY-MM-DD format. If no expiration date is explicitly stated within the contract, indicate "Indefinite Term".
+*   **Dates with Contractual Purpose and Significance:** Identify and comprehensively detail all other dates within the contract that carry legal or operational significance to the agreement's terms or execution. For each date, precisely explain its contractual function and importance *as explicitly defined by the contract*. Focus on interpreting the *contractual meaning* of the date, not just extracting the date itself. Include dates pertaining to milestones, payment schedules, review periods, performance obligations, deadlines, or other critical contractual events. For each date, present the date and its corresponding significance as a distinct bullet point. Prioritize dates that are explicitly labeled with their contractual purpose within the contract text (e.g., "Commencement Date," "First Payment Date," "Review Deadline"). Output dates in YYYY-MM-DD format.
+
+**3. Core Contractual Commitments:**
+*   For each party identified in section 1, succinctly summarize their *primary* contractual commitments and obligations. Focus on outlining the *essential actions* ('what' is required) and the obligated party ('who' is responsible) to fulfill the agreement's primary objectives. Prioritize clarity and conciseness, eliminating superfluous details or redundant phrasing, and emphasizing the most critical duties for each party. Organize this section by listing each party, followed by a bulleted list of their core obligations directly underneath their name.
+
+**4. Contract Termination Provisions:**
+*   Identify and meticulously detail each distinct condition under which any party is granted the unilateral right to terminate the contract. For each termination provision, aim to understand and articulate the *underlying rationale* or principle, if discernible from the text. For every termination provision, present the following elements in a structured, numbered format:
+
+    1.  **Termination Provision Summary:** Concisely summarize the precise condition, circumstance, or event that grants a party the right to terminate the contract.
+        *   *Terminating Party/Parties:* Specify which party or parties are authorized to exercise the termination right under this specific condition.
+        *   *Required Notice Period:* State the exact duration of advance notice required prior to the termination taking effect. If no notice period is specified in the contract for this condition, indicate "No Notice Specified".
+        *   *Specific Triggering Events or Circumstances as Defined in the Contract:* Describe the specific events, circumstances, breaches, or failures that activate this termination right. Include concise illustrative phrases or keywords, either directly quoted or closely paraphrased from the contract language, that exemplify these triggers. Where available and relevant, include the specific contract section or clause number pertaining to the termination provision in parentheses after the triggering circumstances.
+24
+**Enhanced Contract Detail Extraction Prompt:**
+
+This prompt is designed for advanced extraction of key details from a contract document, presented in a highly readable, structured outline. Focus on demonstrating a deep understanding of the contractual context, concisely rephrasing information to enhance clarity, and strictly avoiding verbatim copying of sentences.
+
+**1. Parties to the Agreement:**
+*   Identify and list each distinct legal entity recognized as a party within the contract. Provide the complete, verbatim legal name for each party as it appears in the contract. Present as a numbered list with each party's legal name in **bold**.
+
+**2. Critical Contract Dates:**
+*   **Effective Date:** Extract and explicitly state the date on which the contract becomes legally binding and operational. Output in YYYY-MM-DD format.
+*   **Expiration Date:** Extract and explicitly state the date on which the contract term concludes, if specified. Output in YYYY-MM-DD format. If no expiration date is explicitly stated within the contract, indicate "Indefinite Term".
+*   **Dates with Contractual Purpose and Significance:** Identify and comprehensively detail all other dates within the contract that carry legal or operational significance to the agreement's terms or execution. For each date, precisely explain its contractual function and importance *as explicitly defined by the contract*. Focus on interpreting the *contractual meaning* of the date. Prioritize dates explicitly *defined* with their contractual purpose within the contract text (e.g., "Commencement Date," "First Payment Date," "Review Deadline"). For each date, present the date and its corresponding significance as a distinct bullet point. Output dates in YYYY-MM-DD format.
+
+**3. Core Contractual Commitments:**
+*   For each party identified in section 1, succinctly summarize their *primary* contractual commitments and obligations in your own words, avoiding direct quotes unless absolutely necessary to capture specific terminology. Focus on outlining the *essential actions* ('what' is required) and the obligated party ('who' is responsible) to fulfill the agreement's primary objectives. Prioritize clarity and conciseness, eliminating superfluous details or redundant phrasing, and emphasizing the most critical duties for each party. Organize this section by listing each party, followed by a bulleted list of their core obligations directly underneath their name.
+
+**4. Contract Termination Provisions:**
+*   Identify and meticulously detail each distinct condition under which any party is granted the unilateral right to terminate the contract, paying close attention to nuances in wording that define the scope and limitations of each termination right. For each termination provision, aim to understand and articulate the *underlying rationale* or principle, if discernible from the text. For every termination provision, present the following elements in a structured, numbered format:
+
+    1.  **Termination Provision Summary:** Concisely summarize the precise condition, circumstance, or event that grants a party the right to terminate the contract.
+        *   *Terminating Party/Parties:* Specify which party or parties are authorized to exercise the termination right under this specific condition.
+        *   *Required Notice Period:* State the exact duration of advance notice required prior to the termination taking effect. If no notice period is specified in the contract for this condition, indicate "No Notice Specified".
+        *   *Specific Triggering Events or Circumstances as Defined in the Contract:* Describe the specific events, circumstances, breaches, or failures that activate this termination right. Include concise illustrative phrases or keywords, either directly quoted or closely paraphrased from the contract language, that exemplify these triggers. Where available and relevant, include the specific contract section or clause number pertaining to the termination provision in parentheses after the triggering circumstances.
+25
+**Enhanced Contract Detail Extraction Prompt:**
+
+This prompt is designed for advanced and efficient extraction of key details from a contract document, presented in a highly readable, structured, and concise outline. Focus on demonstrating a clear understanding of the contractual context through precise rephrasing and summarization, strictly avoiding verbatim copying of full sentences. Prioritize clarity, conciseness, and directness in your output.
+
+**1. Parties to the Agreement:**
+*   Identify and list each distinct legal entity recognized as a party within the contract. Provide the complete, verbatim legal name for each party as it appears in the contract. Present as a numbered list with each party's legal name in **bold**.
+
+**2. Critical Contract Dates:**
+*   **Effective Date:** Extract and explicitly state the date on which the contract becomes legally binding. Output in YYYY-MM-DD format.
+*   **Expiration Date:** Extract and explicitly state the date on which the contract term concludes, if specified. Output in YYYY-MM-DD format. If no expiration date is explicitly stated, indicate "Indefinite Term".
+*   **Contractually Significant Dates:** Identify and detail all other dates within the contract that are *explicitly designated* as having contractual significance. For each date, precisely explain its defined contractual purpose *as stated in the contract*. Focus only on dates where the contract text *clearly defines* their contractual role (e.g., "Commencement Date," "Payment Due Date"). For each date, present the date and its corresponding significance as a distinct bullet point. Output dates in YYYY-MM-DD format.
+
+**3. Core Contractual Commitments:**
+*   For each party identified in section 1, succinctly summarize their *primary* contractual commitments and obligations in your own words. Avoid direct quotes unless absolutely necessary to capture essential terminology. Focus on the *most critical actions* each party is obligated to perform to achieve the contract's main objectives. Prioritize clarity, conciseness, and eliminating any unnecessary details or redundant phrasing. Organize this section by listing each party, followed by a bulleted list of their core obligations directly underneath their name.
+
+**4. Contract Termination Provisions:**
+*   Identify and meticulously detail each distinct condition under which any party has the unilateral right to terminate the contract. For each termination provision, articulate the *contractual basis* for termination as defined in the contract text. For every termination provision, present the following elements in a structured, numbered format:
+
+    1.  **Termination Provision Summary:** Concisely summarize the precise condition, circumstance, or event that grants a termination right.
+        *   *Terminating Party/Parties:* Specify which party or parties can exercise this termination right.
+        *   *Required Notice Period:* State the exact duration of advance notice required before termination takes effect. If no notice period is specified for this condition, indicate "No Notice Specified".
+        *   *Triggering Events or Circumstances:** Describe the specific events, circumstances, breaches, or failures that activate this termination right. Use concise phrases or keywords, paraphrased or directly quoted, from the contract to exemplify these triggers. Where available and relevant, include the contract section or clause number in parentheses.
+26
+**Improved Contract Detail Extraction Prompt:**
+
+This prompt is designed for the precise and efficient extraction of key details from a contract document, presented as a highly readable, structured, and concise outline. Demonstrate a clear understanding of the contractual context through careful rephrasing and summarization, strictly avoiding verbatim copying of full sentences except where absolutely necessary for legal names. Prioritize clarity, conciseness, and directness in your output, ensuring accuracy and faithfulness to the contract's intended meaning.
+
+**1. Parties to the Agreement:**
+*   Identify and list each distinct legal entity defined as a party within the contract. Extract the complete and verbatim legal name for each party as it is initially defined in the contract (typically at the beginning). Present as a numbered list with each party's legal name in **bold**.
+
+**2. Critical Contract Dates:**
+*   **Effective Date:** Extract and explicitly state the date on which the contract becomes legally binding. Output in YYYY-MM-DD format.
+*   **Expiration Date:** Extract and explicitly state the date on which the contract term concludes, if specified. Output in YYYY-MM-DD format. If no expiration date is explicitly stated, indicate "Indefinite Term".
+*   **Contractually Defined Significant Dates:** Identify and detail all other dates within the contract that are *explicitly defined* and designated as having a specific contractual role or significance (e.g., Commencement Date, Milestone Dates, Delivery Dates, Payment Due Dates). For each date, precisely explain its defined contractual purpose *as stated in the contract*. Focus only on dates where the contract text *clearly defines* their contractual role. For each date, present the date and its corresponding significance as a distinct bullet point. Output dates in YYYY-MM-DD format.
+
+**3. Core Contractual Obligations:**
+*   For each party identified in section 1, succinctly summarize their *primary* contractual obligations in your own words. Avoid direct quotes unless absolutely necessary to capture essential terminology. Focus on the *most critical actions* each party is obligated to perform to achieve the contract's main objectives. Prioritize clarity, conciseness, and eliminating any unnecessary details or redundant phrasing. Organize this section by listing each party, followed by a bulleted list of their core obligations directly underneath their name.
+
+**4. Unilateral Contract Termination Provisions:**
+*   Identify and meticulously detail each distinct condition under which *only one* party (or a defined subset of parties) has the unilateral right to terminate the contract (i.e., termination not requiring mutual agreement). For each unilateral termination provision, articulate the *contractual basis* for termination as defined in the contract text. For every unilateral termination provision, present the following elements in a structured, numbered format:
+
+    1.  **Termination Provision Summary:** Concisely summarize the precise condition, circumstance, or event that grants a unilateral termination right.
+        *   *Terminating Party/Parties:* Specify which party or parties can exercise this unilateral termination right.
+        *   *Required Notice Period:* State the exact duration of advance notice required before termination takes effect. If no notice period is specified for this condition, indicate "No Notice Specified".
+        *   *Triggering Events or Circumstances:** Describe the specific events, circumstances, breaches, or failures that activate this unilateral termination right. Use concise phrases or keywords, paraphrased or directly quoted, from the contract to exemplify these triggers. Where available and relevant, include the contract section or clause number in parentheses.
+27
+**Improved Contract Detail Extraction Prompt:**
+
+This prompt is designed for the precise and efficient extraction of key details from a contract document, presented as a highly readable, structured, and concise outline. Demonstrate a clear understanding of the contractual context through careful rephrasing and summarization, strictly avoiding verbatim copying of full sentences except where absolutely necessary for legal names. Prioritize clarity, conciseness, and directness in your output, ensuring accuracy and faithfulness to the contract's intended meaning.
+
+**1. Parties to the Agreement:**
+*   Identify and list each distinct legal entity defined as a party within the contract. Extract the complete and verbatim legal name for each party as it is initially defined in the contract (typically at the beginning). Present as a numbered list with each party's legal name in **bold**.
+
+**2. Critical Contract Dates:**
+*   **Effective Date:** Extract and explicitly state the date on which the contract becomes legally binding. Output in YYYY-MM-DD format.
+*   **Expiration Date:** Extract and explicitly state the date on which the contract term concludes, if specified. Output in YYYY-MM-DD format. If no expiration date is explicitly stated, indicate "Indefinite Term".
+*   **Contractually Defined Significant Dates:** Identify and detail all other dates within the contract that are *explicitly defined within the contract text* and designated as having a specific contractual role or significance (e.g., Commencement Date, Milestone Dates, Delivery Dates, Payment Due Dates). *Do not include dates that are merely mentioned in the contract without a clear contractual definition of their significance.* For each date that meets this criterion, precisely explain its defined contractual purpose *as stated in the contract*. Focus only on dates where the contract text *clearly and explicitly defines* their contractual role. For each date, present the date and its corresponding significance as a distinct bullet point. Output dates in YYYY-MM-DD format. *Example: Do not include a date mentioned as the company's founding date unless the contract explicitly defines a contractual significance for this date.*
+
+**3. Core Contractual Obligations:**
+*   For each party identified in section 1, succinctly summarize their *core* and *primary* contractual obligations in your own words. Avoid direct quotes unless absolutely necessary to capture essential terminology related to the obligations. Focus on the *most critical actions* each party is obligated to perform to achieve the contract's *fundamental objectives*. Prioritize clarity, conciseness, and eliminating any unnecessary details, secondary obligations, or redundant phrasing. Organize this section by listing each party, followed by a bulleted list of their core obligations directly underneath their name. *Focus on the 'must-do' actions for each party to fulfill the contract's main purpose.*
+
+**4. Unilateral Contract Termination Provisions:**
+*   Identify and meticulously detail each distinct condition under which *only one* party (or a defined subset of parties) has the unilateral right to terminate the contract (i.e., termination not requiring mutual agreement). For each unilateral termination provision, articulate the *contractual basis* for termination as defined in the contract text. For every unilateral termination provision, present the following elements in a structured, numbered format:
+
+    1.  **Termination Provision Summary:** Concisely summarize the precise condition, circumstance, or event that grants a unilateral termination right.
+        *   *Terminating Party/Parties:* Specify which party or parties can exercise this unilateral termination right.
+        *   *Required Notice Period:* State the exact duration of advance notice required before termination takes effect. If no notice period is specified for this condition, indicate "No Notice Specified".
+        *   *Triggering Events or Circumstances:** Describe the specific events, circumstances, breaches, or failures that activate this unilateral termination right. Use concise phrases or keywords, paraphrased or directly quoted, from the contract to exemplify these triggers. Where available and relevant, include the contract section or clause number in parentheses.
+28
+**Improved Contract Detail Extraction Prompt:**
+
+This prompt is designed for the precise and efficient extraction of key contractual details, generating a highly readable, structured, and concise outline. Demonstrate a clear understanding of the contractual context through careful rephrasing and intelligent summarization, strictly avoid verbatim copying of full sentences except when absolutely necessary for legal entity names. Prioritize clarity, conciseness, and directness in your output, ensuring accuracy and faithful representation of the contract's intended meaning.
+
+**1. Parties to the Agreement:**
+*   Identify and list each distinct legal entity defined as a party within the contract. Extract the complete and verbatim legal name for each party as it is initially defined in the contract (typically at the beginning). Present as a numbered list with each party's legal name in **bold**.
+
+**2. Critical Contract Dates:**
+*   **Effective Date:** Extract and explicitly state the date on which the contract legally becomes binding. Output in YYYY-MM-DD format.
+*   **Expiration Date:** Extract and explicitly state the date on which the contract term concludes, if specified. Output in YYYY-MM-DD format. If no expiration date is explicitly stated, indicate "Indefinite Term".
+*   **Contractually Defined Significant Dates:** Identify and detail all other dates within the contract that are *explicitly defined within the contract text* and designated as having a specific contractual role or significance (e.g., Commencement Date, Milestone Dates, Delivery Dates, Payment Due Dates). *Do not include dates that are merely mentioned without a clear contractual definition of their significance.* For each date meeting this criterion, precisely explain its defined contractual purpose *as explicitly stated in the contract*. Focus solely on dates where the contract text *clearly and explicitly defines* their contractual role.  For each date, present the date and its corresponding significance as a distinct bullet point. Output dates in YYYY-MM-DD format. *Example: Do not include a company's founding date unless the contract explicitly defines a contractual significance for this date.*
+
+**3. Core Contractual Obligations:**
+*   For each party identified in section 1, succinctly summarize their *core* and *primary* contractual obligations using your own words. Avoid direct quotations unless absolutely essential to capture specific legal terminology related to the obligations. Focus on the *most critical actions* each party is obligated to perform to achieve the contract's *fundamental objectives*. Prioritize clarity, conciseness, and elimination of any unnecessary details, secondary obligations, or redundant phrasing. Organize this section by listing each party, followed by a bulleted list of their core obligations directly underneath their name. *Concentrate on the 'must-do' actions for each party to fulfill the contract's main purpose.*
+
+**4. Unilateral Contract Termination Provisions:**
+*   Identify and meticulously detail each distinct condition under which *only one* party (or a defined subset of parties) possesses the unilateral right to terminate the contract (i.e., termination not requiring mutual agreement). For each unilateral termination provision, articulate the *contractual basis* for termination as defined in the contract text.  For every unilateral termination provision, present the following elements in a structured, numbered format:
+
+    1.  **Termination Provision Summary:** Concisely summarize the precise condition, circumstance, or event that grants a unilateral termination right.
+        *   *Terminating Party/Parties:* Specify which party or parties can exercise this unilateral termination right.
+        *   *Required Notice Period:* State the exact duration of advance notice required before termination takes effect. If no notice period is specified for this condition, indicate "No Notice Specified".
+        *   *Triggering Events or Circumstances:** Describe the specific events, circumstances, breaches, or failures that activate this unilateral termination right. Use concise phrases or keywords, paraphrased or directly quoted, from the contract to exemplify these triggers. Where readily available and relevant, include the contract section or clause number in parentheses.
+29
