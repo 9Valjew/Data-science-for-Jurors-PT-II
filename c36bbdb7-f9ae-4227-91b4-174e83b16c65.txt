@@ -1,0 +1,947 @@
+You are tasked with identifying and extracting key details of contracts, you need to identify the parties involved, key dates, material obligations, and termination conditions.
+----ADVICE----
+
+0
+Analyze the following contract text and extract key details in an easy-to-understand outline format. Identify and list: 1) The parties involved in the contract, 2) Key dates mentioned in the contract, 3) Material obligations of each party, and 4) Termination conditions of the contract. For each of these points, summarize the relevant information concisely using your own words, avoiding direct copying of sentences from the contract. Structure your output as a clear outline with bullet points or numbered lists for each category. Do not simplify this prompt.
+
+For best results:
+* Ensure you provide the complete and accurate contract text.
+* Review the generated outline carefully to verify accuracy and completeness, especially for legal documents.
+* If the initial output is not satisfactory, consider refining your prompt or providing more specific instructions about the details you need.
+----ADVICE----
+*   **Parties:** Use a tuple `(Landlord, Tenant)` for clearer role identification.
+*   **Dates:** Convert dates into `datetime` objects for comparison.
+*   **Obligations:** Use a `dict` to represent obligations mapped to each party.
+*   **Termination:** Extract conditions as a list of short descriptions.
+*   Consider a named entity recognition (NER) model for party identification.
+
+1
+Analyze the following contract text and extract key details in an easy-to-understand outline format.  Your output should be structured as a clear outline with bullet points or numbered lists for each category.  Do not directly copy sentences from the contract; instead, summarize the information concisely in your own words.
+
+Specifically, identify and outline the following key details:
+
+1.  **Parties involved:** Identify all parties to the contract. For each party, state their full name and role as defined in the contract (e.g., "Buyer," "Seller," "Landlord," "Tenant"). List these parties clearly.
+2.  **Key Dates:** Extract all significant dates mentioned in the contract, such as the effective date, commencement date, expiration date, and any deadlines. Present these dates along with a brief description of their significance within the contract.
+3.  **Material Obligations of Each Party:**  For each party identified, summarize their main obligations and responsibilities under the contract.  Focus on the 'must do' actions or deliverables for each party.  Use concise bullet points to list the obligations for each party separately.
+4.  **Termination Conditions:** Identify and list the conditions under which the contract can be terminated by either party.  Describe each condition briefly and clearly.
+
+Do not simplify this prompt.
+
+For best results:
+* Ensure you provide the complete and accurate contract text.
+* Review the generated outline carefully to verify accuracy and completeness, especially for legal documents.
+* If the initial output is not satisfactory, consider refining your prompt or providing more specific instructions about the details you need.
+
+*   **Parties:** For enhanced processing of the extracted data, consider using a tuple `(Party Name, Role)` for clearer role identification in your programmatic handling.
+*   **Dates:** For easier date comparisons and manipulations in further processing, consider converting dates into `datetime` objects.
+*   **Obligations:** To structure obligations for programmatic access, consider using a `dict` to represent obligations mapped to each party (e.g., `{Party Name: [Obligation 1, Obligation 2, ...]}`).
+*   **Termination:** For easier programmatic analysis of termination clauses, extract conditions as a list of short descriptions.
+*   For improved party identification accuracy, especially in complex contracts, consider leveraging a named entity recognition (NER) model.
+----ADVICE----
+*   **Parties:** (Party Name, Role)
+*   **Dates:** Convert dates into datetime objects.
+*   **Obligations:** Use a dict `{Party Name: [Obligation 1, Obligation 2, ...]}
+*   **Termination:** Extract conditions as a list of short descriptions.
+*   Named entity recognition (NER) for party identification.
+2
+Analyze the following contract text and extract key details in an easy-to-understand outline format.  **Ensure your output is structured as a clear and readable outline using bullet points or numbered lists for each of the categories below.**  Do not directly copy sentences from the contract. Instead, summarize the information concisely and in your own words for each point in the outline.
+
+Specifically, identify and outline the following key details:
+
+1.  **Parties Involved:** Identify all parties to the contract. For each party, state their full name and their role as defined within the contract (e.g., "Buyer," "Seller," "Landlord," "Tenant"). Present this information as a clear list of parties.
+2.  **Key Dates:** Extract all significant dates mentioned in the contract, such as the effective date, commencement date, expiration date, and any deadlines. For each date, specify its significance or purpose as described in the contract.
+3.  **Material Obligations of Each Party:** For each party identified, summarize their main obligations and responsibilities under this contract. Focus on the essential 'must do' actions and deliverables for each party.  List these obligations using concise bullet points under each party's name.
+4.  **Termination Conditions:** Identify and list all conditions under which this contract can be terminated by either party. Describe each termination condition briefly and clearly.
+
+Do not simplify this prompt.
+
+*   **Parties:** (Party Name, Role)
+*   **Dates:** Convert dates into datetime objects.
+*   **Obligations:** Use a dict `{Party Name: [Obligation 1, Obligation 2, ...]}
+*   **Termination:** Extract conditions as a list of short descriptions.
+*   Named entity recognition (NER) for party identification.
+----ADVICE----
+*   **Parties:** (Party Name, Role)
+*   **Dates:** Dates with specific formats.
+*   **Obligations:** Use a dictionary {Party Name: \[Obligation 1, Obligation 2, ...]}
+*   **Termination:** Extract conditions as a list of short descriptions.
+*   NER for party and address extraction.
+
+3
+Analyze the following contract text and extract key details in an easy-to-understand outline format.  **Ensure your output is structured as a clear and readable outline using bullet points or numbered lists for each of the categories below.**  Do not directly copy sentences from the contract. Instead, summarize the information concisely and in your own words for each point in the outline.
+
+Specifically, identify and outline the following key details:
+
+1.  **Parties Involved:**  Identify all parties to the contract. For each party, state their full name and their role as defined within the contract (e.g., "Buyer," "Seller," "Landlord," "Tenant"). Present this information as a clear list of parties, ensuring to capture party names and their designated roles accurately. Consider using Named Entity Recognition techniques to aid in party identification. Output format: (Party Name, Role).
+2.  **Key Dates:** Extract all significant dates mentioned in the contract, such as the effective date, commencement date, expiration date, and any deadlines. For each date, specify its significance or purpose as described in the contract. Be attentive to dates presented in various formats within the contract. Output format: Date - Significance.
+3.  **Material Obligations of Each Party:** For each party identified, summarize their main obligations and responsibilities under this contract. Focus on the essential 'must do' actions and deliverables for each party. List these obligations using concise bullet points under each party's name. Structure obligations as a list under each party's name. Output format:  Party Name: \[Obligation 1, Obligation 2, ...].
+4.  **Termination Conditions:** Identify and list all conditions under which this contract can be terminated by either party. Describe each termination condition briefly and clearly. Output format: List of short descriptions for each condition.
+
+Do not simplify this prompt.
+
+*   **Parties:** (Party Name, Role)
+*   **Dates:** Dates with specific formats.
+*   **Obligations:** Use a dictionary {Party Name: \[Obligation 1, Obligation 2, ...]}
+*   **Termination:** Extract conditions as a list of short descriptions.
+*   NER for party and address extraction.
+----ADVICE----
+*   **Parties:** Utilize a list of tuples `(Party Name, Role)`.
+*   **Dates:** Improve date parsing to handle varied formats.
+*   **Obligations:** Employ a dictionary: `{Party Name: \[Obligation 1, Obligation 2, ...]}
+*   **Termination:** List conditions with concise descriptions.
+*   Incorporate NER for comprehensive party and address extraction.
+
+4
+Analyze the following contract text and extract key details in an easy-to-understand outline format.  **Ensure your output is structured as a clear and readable outline using bullet points or numbered lists for each of the categories below.**  Do not directly copy sentences from the contract. Instead, summarize the information concisely and in your own words for each point in the outline.
+
+Specifically, identify and outline the following key details:
+
+1.  **Parties Involved:**  Identify all parties to the contract. For each party, state their full name and their role as defined within the contract (e.g., "Buyer," "Seller," "Landlord," "Tenant," "Lessor," "Lessee"). Present this information as a clear list of parties, ensuring to capture party names and their designated roles accurately, even when multiple parties or complex roles exist. Utilize techniques like Named Entity Recognition to aid in identifying and accurately extracting party names and associated roles. Output format: (Party Name, Role).
+2.  **Key Dates:** Extract all significant dates mentioned in the contract, such as the effective date, commencement date, expiration date, termination date, and any critical deadlines or milestone dates. For each date, specify its significance or purpose as described in the contract.  Be attentive to and accurately interpret dates presented in various formats (e.g., MM/DD/YYYY, DD-MMM-YYYY, etc.) and within different contextual phrasing. Output format: Date - Significance.
+3.  **Material Obligations of Each Party:** For each party identified, summarize their core obligations and responsibilities under this contract. Focus on the essential 'must do' actions, deliverables, and commitments for each party that are critical to the contract's performance. List these obligations using concise bullet points or numbered lists under each party's name. Ensure to capture the essence of each obligation without directly copying contract phrasing. Output format: Party Name: \[Obligation 1, Obligation 2, ...].
+4.  **Termination Conditions:** Identify and list all conditions under which this contract can be terminated by any party or under specific circumstances. Describe each termination condition briefly and clearly, ensuring to capture the essence of the condition and any associated requirements or triggers. Output format: List of short descriptions for each condition.
+
+Do not simplify this prompt.
+
+*   **Parties:** Utilize techniques to accurately identify parties and their roles.
+*   **Dates:** Enhance date parsing to accommodate diverse date formats within the contract.
+*   **Obligations:** Focus on extracting and summarizing the key obligations of each party.
+*   **Termination:** List termination conditions with brief, clear descriptions.
+*   Incorporate Named Entity Recognition for robust party and address extraction.
+----ADVICE----
+*   **Parties:** Use `spaCy` to find persons and organizations and match them to roles using keywords.
+*   **Dates:** Employ regular expressions to capture various date formats.
+*   **Obligations:** Use dependency parsing to extract key verbs linked to each party.
+*   **Termination:** Focus on identifying clauses containing trigger words like "terminate", "cancel", or "breach".
+
+5
+Analyze the following contract text and extract key details in an easy-to-understand outline format.  **Ensure your output is structured as a clear and readable outline using bullet points or numbered lists for each of the categories below.**  Do not directly copy sentences from the contract. Instead, summarize the information concisely and in your own words for each point in the outline.
+
+Specifically, identify and outline the following key details:
+
+1.  **Parties Involved:**  Identify all parties to the contract. For each party, state their full name and their role as defined within the contract (e.g., "Buyer," "Seller," "Landlord," "Tenant," "Lessor," "Lessee"). Present this information as a clear list of parties, ensuring to capture party names and their designated roles accurately, even when multiple parties or complex roles exist. Utilize Named Entity Recognition techniques to aid in identifying and accurately extracting party names and associated roles, and employ keyword matching to confirm roles based on contextual clues within the contract. Output format: (Party Name, Role).
+2.  **Key Dates:** Extract all significant dates mentioned in the contract, such as the effective date, commencement date, expiration date, termination date, and any critical deadlines or milestone dates. For each date, specify its significance or purpose as described in the contract.  Be attentive to and accurately interpret dates presented in various formats (e.g., MM/DD/YYYY, DD-MMM-YYYY, etc.) and within different contextual phrasing. Employ regular expressions to effectively capture and standardize the diverse date formats present in the contract. Output format: Date - Significance.
+3.  **Material Obligations of Each Party:** For each party identified, summarize their core obligations and responsibilities under this contract. Focus on the essential 'must do' actions, deliverables, and commitments for each party that are critical to the contract's performance. List these obligations using concise bullet points or numbered lists under each party's name. Ensure to capture the essence of each obligation without directly copying contract phrasing. Utilize dependency parsing techniques to identify key verbs and actions associated with each party, enabling the extraction of their primary obligations. Output format: Party Name: \[Obligation 1, Obligation 2, ...].
+4.  **Termination Conditions:** Identify and list all conditions under which this contract can be terminated by any party or under specific circumstances. Describe each termination condition briefly and clearly, ensuring to capture the essence of the condition and any associated requirements or triggers. Focus on clauses containing trigger words such as "terminate," "cancel," or "breach" to locate relevant termination conditions. Output format: List of short descriptions for each condition.
+----ADVICE----
+*   Employ a dictionary or JSON structure for "Parties Involved" mapping names to roles.
+*   For "Key Dates," use a timeline representation or a sorted list of dates with significance.
+*   Model "Obligations" as a graph, linking parties to their duties.
+*   Structure "Termination Conditions" as a decision tree.
+*   Consider using semantic role labeling for better obligation extraction.
+6
+Analyze the following contract text and extract key details in an easy-to-understand outline format.  **Ensure your output is structured as a clear and readable outline using bullet points or numbered lists for each of the categories below.**  Do not directly copy sentences from the contract. Instead, summarize the information concisely and in your own words for each point in the outline.
+
+Specifically, identify and outline the following key details:
+
+1.  **Parties Involved:** Identify all parties to the contract. For each party, state their full name and their role as defined within the contract (e.g., "Buyer," "Seller," "Landlord," "Tenant," "Lessor," "Lessee"). Present this information as a clear list of parties, ensuring to capture party names and their designated roles accurately, even when multiple parties or complex roles exist. Utilize Named Entity Recognition techniques to aid in identifying and accurately extracting party names and associated roles, and employ keyword matching to confirm roles based on contextual clues within the contract. Output format: (Party Name, Role).
+2.  **Key Dates:** Extract all significant dates mentioned in the contract, such as the effective date, commencement date, expiration date, termination date, and any critical deadlines or milestone dates. For each date, specify its significance or purpose as described in the contract.  Be attentive to and accurately interpret dates presented in various formats (e.g., MM/DD/YYYY, DD-MMM-YYYY, etc.) and within different contextual phrasing. Employ regular expressions to effectively capture and standardize the diverse date formats present in the contract. Output format: Date - Significance.
+3.  **Material Obligations of Each Party:** For each party identified, summarize their core obligations and responsibilities under this contract. Focus on the essential 'must do' actions, deliverables, and commitments for each party that are critical to the contract's performance. List these obligations using concise bullet points or numbered lists under each party's name. Ensure to capture the essence of each obligation without directly copying contract phrasing. Utilize dependency parsing techniques to identify key verbs and actions associated with each party, enabling the extraction of their primary obligations. Output format: Party Name: \[Obligation 1, Obligation 2, ...].
+4.  **Termination Conditions:** Identify and list all conditions under which this contract can be terminated by any party or under specific circumstances. Describe each termination condition briefly and clearly, ensuring to capture the essence of the condition and any associated requirements or triggers. Focus on clauses containing trigger words such as "terminate," "cancel," or "breach" to locate relevant termination conditions. Output format: List of short descriptions for each condition.
+----ADVICE----
+*   Refine party extraction by including addresses.
+*   Enhance date parsing to handle relative dates (e.g., "30 days after").
+*   Use a dependency tree to parse obligations more deeply.
+*   Use synonym lists for "terminate" to capture more conditions.
+
+7
+Analyze the following contract text and extract key details in an easy-to-understand outline format.  **Ensure your output is structured as a clear and readable outline using bullet points or numbered lists for each of the categories below.**  Do not directly copy sentences from the contract. Instead, summarize the information concisely and in your own words for each point in the outline.
+
+Specifically, identify and outline the following key details:
+
+1.  **Parties Involved:** Identify all parties to the contract. For each party, state their full name, their role as defined within the contract (e.g., "Buyer," "Seller," "Landlord," "Tenant," "Lessor," "Lessee"), and their address if available. Present this information as a clear list of parties, ensuring to capture party names, their designated roles, and addresses accurately, even when multiple parties or complex roles exist. Utilize Named Entity Recognition techniques to aid in identifying and accurately extracting party names and associated roles, and employ keyword matching to confirm roles based on contextual clues within the contract. Output format: (Party Name, Role, Address).
+2.  **Key Dates:** Extract all significant dates mentioned in the contract, such as the effective date, commencement date, expiration date, termination date, and any critical deadlines or milestone dates. For each date, specify its significance or purpose as described in the contract. Be attentive to and accurately interpret dates presented in various formats (e.g., MM/DD/YYYY, DD-MMM-YYYY, etc.) and within different contextual phrasing, including relative dates (e.g., "30 days after the effective date"). Employ regular expressions to effectively capture and standardize the diverse date formats present in the contract and interpret relative date references. Output format: Date - Significance.
+3.  **Material Obligations of Each Party:** For each party identified, summarize their core obligations and responsibilities under this contract. Focus on the essential 'must do' actions, deliverables, and commitments for each party that are critical to the contract's performance. List these obligations using concise bullet points or numbered lists under each party's name. Ensure to capture the essence of each obligation without directly copying contract phrasing. Utilize dependency tree parsing techniques to deeply analyze sentence structure and identify the full context of key verbs and actions associated with each party, enabling the extraction of their primary obligations with nuanced understanding. Output format: Party Name: \[Obligation 1, Obligation 2, ...].
+4.  **Termination Conditions:** Identify and list all conditions under which this contract can be terminated by any party or under specific circumstances. Describe each termination condition briefly and clearly, ensuring to capture the essence of the condition and any associated requirements or triggers. Focus on clauses containing trigger words such as "terminate," "cancel," "breach," and synonyms like "end," "revoke," or "void," to locate relevant termination conditions. Employ semantic analysis to understand the intent of clauses related to contract termination, even if they use varied phrasing. Output format: List of short descriptions for each condition.
+----ADVICE----
+*   **Parties:** Employ relationship extraction to discern connections between names, roles, and addresses.
+
+*   **Key Dates:** Standardize date formats immediately upon extraction.
+
+*   **Obligations:** Use semantic role labeling to clarify actions and responsibilities.
+
+*   **Termination:** Utilize a hybrid approach, integrating keyword search with semantic similarity, to detect termination conditions.
+
+8
+Analyze the following contract text and extract key details in an easy-to-understand outline format.  **Ensure your output is structured as a clear and readable outline using bullet points or numbered lists for each of the categories below.**  Do not directly copy sentences from the contract. Instead, summarize the information concisely and in your own words for each point in the outline.
+
+Specifically, identify and outline the following key details:
+
+1.  **Parties Involved:** Identify all parties to the contract. For each party, state their full name, their role as defined within the contract (e.g., "Buyer," "Seller," "Landlord," "Tenant," "Lessor," "Lessee"), and their address if available.  Present this information as a clear list of parties, ensuring to capture party names, their designated roles, and addresses accurately, even when multiple parties or complex roles exist. Focus on discerning the relationships between names, roles, and addresses to ensure accurate extraction. Utilize Named Entity Recognition and relationship extraction techniques to aid in identifying and accurately extracting party names and associated roles, and employ keyword matching to confirm roles based on contextual clues within the contract. Output format: (Party Name, Role, Address).
+2.  **Key Dates:** Extract all significant dates mentioned in the contract, such as the effective date, commencement date, expiration date, termination date, and any critical deadlines or milestone dates. For each date, specify its significance or purpose as described in the contract. Be attentive to and accurately interpret dates presented in various formats (e.g., MM/DD/YYYY, DD-MMM-YYYY, etc.) and within different contextual phrasing, including relative dates (e.g., "30 days after the effective date"). Standardize date formats immediately upon extraction. Employ regular expressions to effectively capture and standardize the diverse date formats present in the contract and interpret relative date references. Output format: Date - Significance.
+3.  **Material Obligations of Each Party:** For each party identified, summarize their core obligations and responsibilities under this contract. Focus on the essential 'must do' actions, deliverables, and commitments for each party that are critical to the contract's performance. Identify the subject, verb, and object of each obligation to ensure clarity. List these obligations using concise bullet points or numbered lists under each party's name. Ensure to capture the essence of each obligation without directly copying contract phrasing. Utilize dependency tree parsing and semantic role labeling techniques to deeply analyze sentence structure and identify the full context of key verbs and actions associated with each party, enabling the extraction of their primary obligations with nuanced understanding. Output format: Party Name: \[Obligation 1, Obligation 2, ...].
+4.  **Termination Conditions:** Identify and list all conditions under which this contract can be terminated by any party or under specific circumstances. Describe each termination condition briefly and clearly, ensuring to capture the essence of the condition and any associated requirements or triggers. Utilize a hybrid approach, integrating keyword search with semantic similarity, to detect termination conditions. Focus on clauses containing trigger words such as "terminate," "cancel," "breach," and synonyms like "end," "revoke," or "void," to locate relevant termination conditions, and employ semantic analysis to understand the intent of clauses related to contract termination, even if they use varied phrasing. Output format: List of short descriptions for each condition.
+----ADVICE----
+*   **Parties Involved:** Refine NER for role disambiguation, prioritize structured address parsing.
+*   **Key Dates:** Implement a format standardization module, handle relative date anchoring.
+*   **Obligations:** Enhance subject-verb-object extraction, incorporate contractual intent analysis.
+*   **Termination:** Improve keyword lexicon for termination conditions, employ semantic similarity for clause comparison.
+
+9
+Analyze the following contract text to extract key details and present them as an easy-to-understand outline.
+
+**Structure your output as a clear and readable outline using bullet points or numbered lists for each category below.**  Summarize the information concisely in your own words, avoiding direct copying from the contract.
+
+Specifically, identify and outline the following key details:
+
+1.  **Parties Involved:** Identify each party to the contract. For each party, state their full name, their role within the contract (e.g., Buyer, Seller, Landlord, Tenant, Lessor, Lessee), and their address if provided. Present this as a clear list: (Party Name, Role, Address). Accurately discern relationships between names, roles, and addresses, even with multiple parties or complex roles.
+
+    *   **Refinement Strategies:** Refine Named Entity Recognition (NER) for role disambiguation. Prioritize structured parsing of addresses.
+
+2.  **Key Dates:** Extract all significant dates mentioned in the contract, such as the effective date, commencement date, expiration date, termination date, and any critical deadlines or milestones. For each date, specify its significance or purpose as described in the contract. Handle various date formats (MM/DD/YYYY, DD-MMM-YYYY, etc.) and relative dates ("30 days after effective date"). Standardize date formats upon extraction. Output format: Date - Significance.
+
+    *   **Refinement Strategies:** Implement a format standardization module for dates. Handle relative date anchoring to absolute dates.
+
+3.  **Material Obligations of Each Party:** For each identified party, summarize their core obligations and responsibilities under the contract. Focus on essential 'must do' actions, deliverables, and commitments critical to the contract's performance. List these obligations using bullet points or numbered lists under each party's name: Party Name: \[Obligation 1, Obligation 2, ...]. Capture the essence of each obligation without directly copying contract phrasing.
+
+    *   **Refinement Strategies:** Enhance subject-verb-object extraction for obligations. Incorporate analysis of contractual intent to understand the depth and scope of obligations.
+
+4.  **Termination Conditions:** Identify and list all conditions under which the contract can be terminated by any party or under specific circumstances. Briefly and clearly describe each termination condition, including any associated requirements or triggers. Output format: List of short descriptions for each condition.
+
+    *   **Refinement Strategies:** Improve keyword lexicon for identifying termination conditions. Employ semantic similarity for comparing clauses and detecting variations in phrasing related to termination.
+----ADVICE----
+*   Use semantic role labeling for extracting agent, patient, and instrument of clauses.
+*   Develop extraction of conditional dependencies to determine the scope of the contract’s requirements.
+*   Implement a better method for named entity recognition to extract names, dates, and amounts.
+
+10
+Analyze the following contract text to extract key details and present them as an easy-to-understand outline.
+
+**Structure your output as a clear and readable outline using bullet points or numbered lists for each category below.** Summarize the information concisely in your own words, avoiding direct copying from the contract. Employ techniques such as semantic role labeling to identify agents, patients, and instruments within clauses to enhance understanding. Develop extraction of conditional dependencies to determine the scope and conditions of the contract’s requirements. Implement robust Named Entity Recognition (NER) to accurately extract names, dates, and amounts, improving precision in identifying key information.
+
+Specifically, identify and outline the following key details:
+
+1.  **Parties Involved:** Identify each party to the contract using Named Entity Recognition. For each party, state their full name, their role within the contract (e.g., Buyer, Seller, Landlord, Tenant, Lessor, Lessee), and their address if provided.  Accurately discern relationships between names, roles, and addresses, even with multiple parties or complex roles. Present this as a clear list: (Party Name, Role, Address).
+
+    *   **Refinement Strategies:** Enhance Named Entity Recognition (NER) for role disambiguation. Prioritize structured parsing of addresses.
+
+2.  **Key Dates:** Extract all significant dates mentioned in the contract, such as the effective date, commencement date, expiration date, termination date, and any critical deadlines or milestones using Named Entity Recognition. For each date, specify its significance or purpose as described in the contract. Handle various date formats (MM/DD/YYYY, DD-MMM-YYYY, etc.) and relative dates ("30 days after effective date"), anchoring relative dates to absolute dates where possible. Standardize date formats upon extraction. Output format: Date - Significance.
+
+    *   **Refinement Strategies:** Implement a format standardization module for dates. Handle relative date anchoring to absolute dates.
+
+3.  **Material Obligations of Each Party:** For each identified party, summarize their core obligations and responsibilities under the contract. Focus on essential 'must do' actions, deliverables, and commitments critical to the contract's performance.  Utilize semantic role labeling to identify the agent and patient of obligation clauses. List these obligations using bullet points or numbered lists under each party's name: Party Name: \[Obligation 1, Obligation 2, ...]. Capture the essence of each obligation without directly copying contract phrasing, and determine the conditional dependencies and scope of each obligation.
+
+    *   **Refinement Strategies:** Enhance subject-verb-object extraction for obligations. Incorporate analysis of contractual intent to understand the depth and scope of obligations.
+
+4.  **Termination Conditions:** Identify and list all conditions under which the contract can be terminated by any party or under specific circumstances. Briefly and clearly describe each termination condition, including any associated requirements or triggers. Employ semantic similarity analysis to detect variations in phrasing related to termination clauses. Output format: List of short descriptions for each condition.
+
+    *   **Refinement Strategies:** Improve keyword lexicon for identifying termination conditions. Employ semantic similarity for comparing clauses and detecting variations in phrasing related to termination.
+----ADVICE----
+*   **Parties Involved:** Enhance NER for precise role disambiguation. Prioritize structured parsing for address extraction.
+*   **Key Dates:** Implement format standardization. Accurately anchor relative dates to absolute dates.
+*   **Material Obligations:** Improve subject-verb-object extraction for obligations. Incorporate intent analysis.
+*   **Termination Conditions:** Improve keyword lexicon. Employ semantic similarity to detect variations in termination phrasing.
+
+11
+Analyze the following contract text to extract key details and present them as an easy-to-understand outline.
+
+**Structure your output as a clear and readable outline using bullet points or numbered lists for each category below.** Summarize the information concisely in your own words, avoiding direct copying from the contract. Employ techniques such as semantic role labeling to identify agents, patients, and instruments within clauses to enhance understanding. Develop extraction of conditional dependencies to determine the scope and conditions of the contract’s requirements. Implement robust Named Entity Recognition (NER) to accurately extract names, dates, and amounts, improving precision in identifying key information.
+
+Specifically, identify and outline the following key details:
+
+1.  **Parties Involved:** Identify each party to the contract using Named Entity Recognition. For each party, state their full name, their role within the contract (e.g., Buyer, Seller, Landlord, Tenant, Lessor, Lessee), and their address if provided.  Accurately discern relationships between names, roles, and addresses, even with multiple parties or complex roles. Present this as a clear list: (Party Name, Role, Address).
+
+    *   **Refinement Strategies:** Enhance NER for precise role disambiguation. Prioritize structured parsing for address extraction.
+
+2.  **Key Dates:** Extract all significant dates mentioned in the contract, such as the effective date, commencement date, expiration date, termination date, and any critical deadlines or milestones using Named Entity Recognition. For each date, specify its significance or purpose as described in the contract. Handle various date formats (MM/DD/YYYY, DD-MMM-YYYY, etc.) and relative dates ("30 days after effective date"), anchoring relative dates to absolute dates where possible. Standardize date formats upon extraction. Output format: Date - Significance.
+
+    *   **Refinement Strategies:** Implement a format standardization module for dates. Accurately anchor relative dates to absolute dates.
+
+3.  **Material Obligations of Each Party:** For each identified party, summarize their core obligations and responsibilities under the contract. Focus on essential 'must do' actions, deliverables, and commitments critical to the contract's performance.  Utilize semantic role labeling to identify the agent and patient of obligation clauses. List these obligations using bullet points or numbered lists under each party's name: Party Name: \[Obligation 1, Obligation 2, ...]. Capture the essence of each obligation without directly copying contract phrasing, and determine the conditional dependencies and scope of each obligation.
+
+    *   **Refinement Strategies:** Improve subject-verb-object extraction for obligations. Incorporate intent analysis.
+
+4.  **Termination Conditions:** Identify and list all conditions under which the contract can be terminated by any party or under specific circumstances. Briefly and clearly describe each termination condition, including any associated requirements or triggers. Employ semantic similarity analysis to detect variations in phrasing related to termination clauses. Output format: List of short descriptions for each condition.
+
+    *   **Refinement Strategies:** Improve keyword lexicon for identifying termination conditions. Employ semantic similarity for comparing clauses and detecting variations in phrasing related to termination.
+----ADVICE----
+*   Enhance NER to differentiate roles.
+*   Use conditional dependency extraction for scope.
+*   Improve structured parsing for addresses and standardize date formats.
+*   Use semantic role labeling for obligations.
+*   Improve keyword lexicon for termination conditions.
+*   Utilize semantic similarity analysis.
+
+12
+Analyze the provided contract text to extract key details and present them as an easy-to-understand outline.
+
+**Structure your output as a clear and readable outline using bullet points or numbered lists for each category below.** Summarize the information concisely in your own words, avoiding direct copying from the contract. Employ techniques such as semantic role labeling to identify agents, patients, and instruments within clauses to enhance understanding. Develop extraction of conditional dependencies to determine the scope and conditions of the contract’s requirements. Implement robust Named Entity Recognition (NER) to accurately extract names, dates, and amounts, improving precision in identifying key information.
+
+Specifically, identify and outline the following key details:
+
+1.  **Parties Involved:** Identify each party to the contract using Named Entity Recognition. For each party, state their full name, their role within the contract (e.g., Buyer, Seller, Landlord, Tenant, Lessor, Lessee), and their address if provided.  Accurately discern relationships between names, roles, and addresses, even with multiple parties or complex roles. Present this as a clear list: (Party Name, Role, Address). If any detail is not explicitly stated, indicate "Not Specified".
+
+    *   **Refinement Strategies:** Enhance NER for precise role disambiguation. Prioritize structured parsing for address extraction.
+
+2.  **Key Dates:** Extract all significant dates mentioned in the contract, such as the effective date, commencement date, expiration date, termination date, and any critical deadlines or milestones using Named Entity Recognition. For each date, specify its significance or purpose as described in the contract. Handle various date formats (MM/DD/YYYY, DD-MMM-YYYY, etc.) and relative dates ("30 days after effective date"), anchoring relative dates to absolute dates where possible. Standardize date formats upon extraction. Output format: Date - Significance. If any date or significance is not explicitly stated, indicate "Not Specified".
+
+    *   **Refinement Strategies:** Implement a format standardization module for dates. Accurately anchor relative dates to absolute dates.
+
+3.  **Material Obligations of Each Party:** For each identified party, summarize their core obligations and responsibilities under the contract. Focus on essential 'must do' actions, deliverables, and commitments critical to the contract's performance.  Utilize semantic role labeling to identify the agent and patient of obligation clauses. List these obligations using bullet points or numbered lists under each party's name: Party Name: \[Obligation 1, Obligation 2, ...]. Capture the essence of each obligation without directly copying contract phrasing, and determine the conditional dependencies and scope of each obligation. If an obligation is not explicitly stated for a party, indicate "Not Specified".
+
+    *   **Refinement Strategies:** Improve subject-verb-object extraction for obligations. Incorporate intent analysis.
+
+4.  **Termination Conditions:** Identify and list all conditions under which the contract can be terminated by any party or under specific circumstances. Briefly and clearly describe each termination condition, including any associated requirements or triggers. Employ semantic similarity analysis to detect variations in phrasing related to termination clauses. Output format: List of short descriptions for each condition. If no termination conditions are explicitly stated, indicate "Not Specified".
+
+    *   **Refinement Strategies:** Improve keyword lexicon for identifying termination conditions. Employ semantic similarity for comparing clauses and detecting variations in phrasing related to termination.
+
+*   Enhance NER to differentiate roles.
+*   Use conditional dependency extraction for scope.
+*   Improve structured parsing for addresses and standardize date formats.
+*   Use semantic role labeling for obligations.
+*   Improve keyword lexicon for termination conditions.
+*   Utilize semantic similarity analysis.
+----ADVICE----
+
+13
+Analyze the provided contract text to extract key details and present them as an easy-to-understand outline.
+
+**Structure your output as a clear and readable outline using bullet points or numbered lists for each category below.** Summarize the information concisely in your own words, avoiding direct copying from the contract. Utilize semantic role labeling to identify agents, patients, and instruments within clauses to enhance understanding. Extract conditional dependencies to determine the scope and conditions of the contract’s requirements. Implement Named Entity Recognition (NER) to accurately extract names, dates, and amounts, improving precision in identifying key information.
+
+Specifically, identify and outline the following key details:
+
+1.  **Parties Involved:** Use Named Entity Recognition to identify each party to the contract. For each party, state their full name, their role within the contract (e.g., Buyer, Seller, Landlord, Tenant, Lessor, Lessee), and their address if provided.  Accurately discern relationships between names, roles, and addresses, even with multiple parties or complex roles. Present this as a clear list: (Party Name, Role, Address). If any detail is not explicitly stated, indicate "Not Specified". Enhance NER for precise role disambiguation and prioritize structured parsing for address extraction.
+
+2.  **Key Dates:** Use Named Entity Recognition to extract all significant dates mentioned in the contract, such as the effective date, commencement date, expiration date, termination date, and any critical deadlines or milestones. For each date, specify its significance or purpose as described in the contract. Handle various date formats (MM/DD/YYYY, DD-MMM-YYYY, etc.) and relative dates ("30 days after effective date"), anchoring relative dates to absolute dates where possible. Standardize date formats upon extraction. Output format: Date - Significance. If any date or significance is not explicitly stated, indicate "Not Specified". Implement a format standardization module for dates and accurately anchor relative dates to absolute dates.
+
+3.  **Material Obligations of Each Party:** For each identified party, summarize their core obligations and responsibilities under the contract. Focus on essential 'must do' actions, deliverables, and commitments critical to the contract's performance.  Utilize semantic role labeling to identify the agent and patient of obligation clauses. List these obligations using bullet points or numbered lists under each party's name: Party Name: \[Obligation 1, Obligation 2, ...]. Capture the essence of each obligation without directly copying contract phrasing, and determine the conditional dependencies and scope of each obligation. If an obligation is not explicitly stated for a party, indicate "Not Specified". Improve subject-verb-object extraction for obligations and incorporate intent analysis.
+
+4.  **Termination Conditions:** Identify and list all conditions under which the contract can be terminated by any party or under specific circumstances. Briefly and clearly describe each termination condition, including any associated requirements or triggers. Employ semantic similarity analysis to detect variations in phrasing related to termination clauses. Output format: List of short descriptions for each condition. If no termination conditions are explicitly stated, indicate "Not Specified". Improve keyword lexicon for identifying termination conditions and employ semantic similarity for comparing clauses and detecting variations in phrasing related to termination.
+
+**To achieve optimal results, consider the following techniques:**
+
+*   Enhance NER to differentiate roles.
+*   Use conditional dependency extraction for scope.
+*   Improve structured parsing for addresses and standardize date formats.
+*   Use semantic role labeling for obligations.
+*   Improve keyword lexicon for termination conditions.
+*   Utilize semantic similarity analysis.
+----ADVICE----
+*   Enhance Named Entity Recognition (NER) for precise role disambiguation, including landlord, tenant, and legal entities.
+*   Implement structured parsing for address extraction.
+*   Incorporate a module to standardize date formats (MM/DD/YYYY).
+*   Use subject-verb-object extraction for obligations and intent analysis.
+*   Add conditional dependency extraction to determine scope.
+
+14
+Analyze the provided contract text to extract key details and present them as an easy-to-understand outline using bullet points.
+
+**Structure your output as a clear and readable outline using bullet points or numbered lists for each category below.** Summarize the information concisely in your own words, avoiding direct copying from the contract text. Utilize semantic role labeling to identify agents, patients, and instruments within clauses to enhance understanding of obligations and actions. Extract conditional dependencies to determine the scope and conditions of the contract’s requirements. Implement Named Entity Recognition (NER) to accurately extract names, dates, and amounts, improving precision in identifying key information.
+
+Specifically, identify and outline the following key details:
+
+1.  **Parties Involved:** Use Named Entity Recognition to identify each party to the contract. For each party, state their full name, their role within the contract (e.g., Buyer, Seller, Landlord, Tenant, Lessor, Lessee, Legal Entity), and their address if provided. Accurately discern relationships between names, roles, and addresses, even with multiple parties or complex roles. Present this as a clear list using bullet points:
+    *   Party Name: \[Full Name], Role: \[Role], Address: \[Address]
+    If any detail is not explicitly stated, indicate "Not Specified". Enhance NER for precise role disambiguation, including landlord, tenant, and legal entities, and prioritize structured parsing for address extraction.
+
+2.  **Key Dates:** Use Named Entity Recognition to extract all significant dates mentioned in the contract, such as the effective date, commencement date, expiration date, termination date, and any critical deadlines or milestones. For each date, specify its significance or purpose as described in the contract. Handle various date formats (MM/DD/YYYY, DD-MMM-YYYY, etc.) and relative dates ("30 days after effective date"), anchoring relative dates to absolute dates where possible. Standardize date formats to MM/DD/YYYY upon extraction. Output format using bullet points:
+    *   Date: \[MM/DD/YYYY], Significance: \[Significance]
+    If any date or significance is not explicitly stated, indicate "Not Specified". Implement a format standardization module for dates (MM/DD/YYYY) and accurately anchor relative dates to absolute dates.
+
+3.  **Material Obligations of Each Party:** For each identified party, summarize their core obligations and responsibilities under the contract. Focus on essential 'must do' actions, deliverables, and commitments critical to the contract's performance. Utilize semantic role labeling to identify the agent and patient of obligation clauses. List these obligations using bullet points under each party's name:
+    **\[Party Name]:**
+    *   \[Obligation 1]
+    *   \[Obligation 2]
+    *   ...
+    Capture the essence of each obligation without directly copying contract phrasing, and determine the conditional dependencies and scope of each obligation. If an obligation is not explicitly stated for a party, indicate "Not Specified". Use subject-verb-object extraction for obligations and incorporate intent analysis. Add conditional dependency extraction to determine scope.
+
+4.  **Termination Conditions:** Identify and list all conditions under which the contract can be terminated by any party or under specific circumstances. Briefly and clearly describe each termination condition, including any associated requirements or triggers. Employ semantic similarity analysis to detect variations in phrasing related to termination clauses. Output format using bullet points:
+    *   \[Termination Condition Description]
+    If no termination conditions are explicitly stated, indicate "Not Specified". Improve keyword lexicon for identifying termination conditions and employ semantic similarity for comparing clauses and detecting variations in phrasing related to termination.
+
+*   Enhance Named Entity Recognition (NER) for precise role disambiguation, including landlord, tenant, and legal entities.
+*   Implement structured parsing for address extraction.
+*   Incorporate a module to standardize date formats (MM/DD/YYYY).
+*   Use subject-verb-object extraction for obligations and intent analysis.
+*   Add conditional dependency extraction to determine scope.
+----ADVICE----
+*   Enhance NER for role disambiguation and structured parsing for addresses.
+*   Add a date format standardization module and improve the anchoring of relative dates.
+*   Employ subject-verb-object extraction for obligations and intent analysis.
+*   Add conditional dependency extraction to determine scope.
+*   Improve keyword lexicon for identifying termination conditions and semantic similarity for variations in phrasing.
+
+15
+Analyze the provided contract text to extract key details and present them as an easy-to-understand outline. Your output should be a clear and readable outline using bullet points or numbered lists for each category below. Summarize the extracted information concisely, using your own words to ensure clarity and readability, and avoid directly copying sentences from the contract.
+
+To ensure accurate and comprehensive extraction, utilize the following techniques: Semantic Role Labeling to understand obligations and actions by identifying agents, patients, and instruments; Conditional Dependency Extraction to determine the scope and conditions of the contract's requirements; and Named Entity Recognition (NER) to precisely extract names, dates, and amounts.
+
+Specifically, identify and outline the following key details:
+
+1.  **Parties Involved:** Use Named Entity Recognition to identify each party to the contract. For each party, state their full name, their role within the contract (e.g., Buyer, Seller, Landlord, Tenant, Lessor, Lessee, Legal Entity), and their address if provided. Accurately discern relationships between names, roles, and addresses, even with multiple parties or complex roles. Present this as a clear list using bullet points:
+    *   Party Name: \[Full Name], Role: \[Role], Address: \[Address]
+    If any detail is not explicitly stated, indicate "Not Specified". Enhance NER for precise role disambiguation, including landlord, tenant, and legal entities, and prioritize structured parsing for address extraction.
+
+2.  **Key Dates:** Use Named Entity Recognition to extract all significant dates mentioned in the contract, such as the effective date, commencement date, expiration date, termination date, and any critical deadlines or milestones. For each date, specify its significance or purpose as described in the contract. Handle various date formats (MM/DD/YYYY, DD-MMM-YYYY, etc.) and relative dates ("30 days after effective date"), anchoring relative dates to absolute dates where possible. Standardize date formats to MM/DD/YYYY upon extraction. Output format using bullet points:
+    *   Date: \[MM/DD/YYYY], Significance: \[Significance]
+    If any date or significance is not explicitly stated, indicate "Not Specified". Implement a format standardization module for dates (MM/DD/YYYY) and accurately anchor relative dates to absolute dates.
+
+3.  **Material Obligations of Each Party:** For each identified party, summarize their core obligations and responsibilities under the contract. Focus on essential 'must do' actions, deliverables, and commitments critical to the contract's performance. Utilize semantic role labeling to identify the agent and patient of obligation clauses. List these obligations using bullet points under each party's name:
+    **\[Party Name]:**
+    *   \[Obligation 1]
+    *   \[Obligation 2]
+    *   ...
+    Capture the essence of each obligation without directly copying contract phrasing, and determine the conditional dependencies and scope of each obligation. If an obligation is not explicitly stated for a party, indicate "Not Specified". Use subject-verb-object extraction for obligations and incorporate intent analysis. Add conditional dependency extraction to determine scope.
+
+4.  **Termination Conditions:** Identify and list all conditions under which the contract can be terminated by any party or under specific circumstances. Briefly and clearly describe each termination condition, including any associated requirements or triggers. Employ semantic similarity analysis to detect variations in phrasing related to termination clauses. Output format using bullet points:
+    *   \[Termination Condition Description]
+    If no termination conditions are explicitly stated, indicate "Not Specified". Improve keyword lexicon for identifying termination conditions and employ semantic similarity for comparing clauses and detecting variations in phrasing related to termination.
+
+*   Enhance NER for role disambiguation and structured parsing for addresses.
+*   Add a date format standardization module and improve the anchoring of relative dates.
+*   Employ subject-verb-object extraction for obligations and intent analysis.
+*   Add conditional dependency extraction to determine scope.
+*   Improve keyword lexicon for identifying termination conditions and semantic similarity for variations in phrasing.
+----ADVICE----
+*   Leverage graph databases for relationship mapping between parties, roles, and addresses.
+*   Implement a structured dictionary for mapping roles like Lessor and Landlord to standardized terms.
+*   Enhance coreference resolution to accurately link pronouns and entities within the document.
+*   Use template-based extraction for recurring clauses like payment terms to ensure consistency.
+
+16
+Analyze the provided contract text to extract key details and present them as an easy-to-understand outline. Your output should be a clear and readable outline using bullet points or numbered lists for each category below. Summarize the extracted information concisely, using your own words to ensure clarity and readability, and avoid directly copying sentences from the contract.
+
+To ensure accurate and comprehensive extraction, utilize the following techniques: Semantic Role Labeling to understand obligations and actions by identifying agents, patients, and instruments; Conditional Dependency Extraction to determine the scope and conditions of the contract's requirements; and Named Entity Recognition (NER) to precisely extract names, dates, and amounts.
+
+Specifically, identify and outline the following key details:
+
+1.  **Parties Involved:** Identify each party to the contract using Named Entity Recognition. For each party, extract and present their full name, their role (e.g., Buyer, Seller, Landlord, Tenant, Lessor, Lessee, Legal Entity), and their address if provided. Accurately link names, roles, and addresses, especially in contracts with multiple parties or complex roles. Present the extracted party information as a bulleted list:
+    *   Party Name: \[Full Name], Role: \[Role], Address: \[Address]
+    If any detail is not explicitly stated in the contract, indicate "Not Specified". Ensure precise role disambiguation, particularly for roles like landlord, tenant, and legal entities, and use structured parsing for effective address extraction.
+
+2.  **Key Dates:** Extract all significant dates mentioned in the contract using Named Entity Recognition, including the effective date, commencement date, expiration date, termination date, and any critical deadlines or milestones. For each extracted date, specify its contractual significance or purpose as described in the contract. Handle various date formats (MM/DD/YYYY, DD-MMM-YYYY, etc.) and relative dates ("30 days after effective date"), resolving relative dates to absolute dates where possible. Standardize all extracted dates to MM/DD/YYYY format. Output the dates and their significance using bullet points:
+    *   Date: \[MM/DD/YYYY], Significance: \[Significance]
+    If either the date or its significance is not explicitly stated, indicate "Not Specified". Implement date format standardization to MM/DD/YYYY and ensure accurate resolution of relative dates to absolute dates.
+
+3.  **Material Obligations of Each Party:** For each party identified, summarize their core contractual obligations and responsibilities. Focus on the essential 'must do' actions, deliverables, and commitments that are critical for the contract's performance. Utilize semantic role labeling to accurately identify the agent and patient within obligation clauses. List these obligations under each party's name using bullet points:
+    **\[Party Name]:**
+    *   \[Obligation 1]
+    *   \[Obligation 2]
+    *   ...
+    Capture the core meaning of each obligation without directly copying the contract's wording. Determine the conditional dependencies and scope of each obligation using Conditional Dependency Extraction. If an obligation is not explicitly stated for a party, indicate "Not Specified". Employ subject-verb-object extraction to identify obligations and incorporate intent analysis to understand the purpose of each obligation.
+
+4.  **Termination Conditions:** Identify and list all conditions under which the contract can be terminated by any party or due to specific circumstances. Provide a concise description of each termination condition, including any associated requirements or triggers. Employ semantic similarity analysis to detect variations in phrasing related to termination clauses and ensure comprehensive identification. Output the termination conditions using bullet points:
+    *   \[Termination Condition Description]
+    If no termination conditions are explicitly stated in the contract, indicate "Not Specified". Enhance the keyword lexicon used for identifying termination conditions and utilize semantic similarity to effectively compare clauses and detect variations in phrasing related to termination.
+
+*   To enhance accuracy and efficiency, consider leveraging graph databases for relationship mapping between parties, roles, and addresses.
+*   Implement a structured dictionary for mapping roles such as Lessor and Landlord to standardized terms to improve consistency.
+*   Enhance coreference resolution to accurately link pronouns and entities within the document for improved understanding.
+*   Use template-based extraction for recurring clauses, such as payment terms, to ensure consistency and accuracy.
+----ADVICE----
+*   Implement coreference resolution for pronouns referring to entities.
+*   Utilize template-based extraction for payment/date clauses.
+*   Enhance conditional dependency extraction to determine obligation scope.
+*   Use NER to extract dates and amounts.
+*   Improve semantic role labeling to determine actors/actions.
+*   Implement a dictionary for role mapping.
+
+17
+Analyze the provided contract text to extract key details and present them as an easy-to-understand outline. Your output should be a clear and readable outline using bullet points or numbered lists for each category below. Summarize the extracted information concisely, using your own words to ensure clarity and readability, and avoid directly copying sentences from the contract.
+
+To ensure accurate and comprehensive extraction, utilize Semantic Role Labeling to understand obligations and actions by identifying agents, patients, and instruments; Conditional Dependency Extraction to determine the scope and conditions of the contract's requirements; and Named Entity Recognition (NER) to precisely extract names, dates, and amounts.
+
+Specifically, identify and outline the following key details:
+
+1.  **Parties Involved:** Use Named Entity Recognition to identify each party. For each party, extract and present their full name, their role (e.g., Buyer, Seller, Landlord, Tenant, Lessor, Lessee, Legal Entity), and their address if provided. Accurately link names, roles, and addresses, especially in contracts with multiple parties or complex roles. Present the extracted party information as follows:
+    *   Party Name: \[Full Name], Role: \[Role], Address: \[Address]
+    If any detail is not explicitly stated, indicate "Not Specified". Perform precise role disambiguation, particularly for roles like landlord, tenant, and legal entities, and use structured parsing for effective address extraction.
+
+2.  **Key Dates:** Use Named Entity Recognition to extract all significant dates, including the effective date, commencement date, expiration date, termination date, and any critical deadlines or milestones. For each date, specify its contractual significance or purpose as described in the contract. Handle various date formats (MM/DD/YYYY, DD-MMM-YYYY, etc.) and relative dates ("30 days after effective date"), resolving relative dates to absolute dates where possible and standardizing to MM/DD/YYYY format. Output the dates and their significance as follows:
+    *   Date: \[MM/DD/YYYY], Significance: \[Significance]
+    If either the date or its significance is not explicitly stated, indicate "Not Specified". Implement date format standardization to MM/DD/YYYY and accurately resolve relative dates to absolute dates.
+
+3.  **Material Obligations of Each Party:** For each party, summarize their core contractual obligations and responsibilities. Focus on the essential 'must do' actions, deliverables, and commitments critical for the contract's performance. Utilize semantic role labeling to accurately identify the agent and patient within obligation clauses. List these obligations under each party's name as follows:
+    **\[Party Name]:**
+    *   \[Obligation 1]
+    *   \[Obligation 2]
+    *   ...
+    Capture the core meaning of each obligation without directly copying the contract's wording. Determine the conditional dependencies and scope of each obligation using Conditional Dependency Extraction. If an obligation is not explicitly stated for a party, indicate "Not Specified". Employ subject-verb-object extraction to identify obligations and incorporate intent analysis to understand the purpose of each obligation.
+
+4.  **Termination Conditions:** Identify and list all conditions under which the contract can be terminated by any party or due to specific circumstances. Provide a concise description of each termination condition, including any associated requirements or triggers. Employ semantic similarity analysis to detect variations in phrasing related to termination clauses and ensure comprehensive identification. Output the termination conditions as follows:
+    *   \[Termination Condition Description]
+    If no termination conditions are explicitly stated, indicate "Not Specified". Enhance the keyword lexicon used for identifying termination conditions and utilize semantic similarity to effectively compare clauses and detect variations in phrasing related to termination.
+
+To improve extraction:
+*   Implement coreference resolution for pronouns referring to entities.
+*   Utilize template-based extraction for payment and date clauses.
+*   Enhance conditional dependency extraction to determine the scope of obligations.
+*   Use NER to extract dates and amounts.
+*   Improve semantic role labeling to accurately determine actors and actions.
+*   Implement a dictionary for role mapping (e.g., Lessor to Landlord).
+----ADVICE----
+*   Enhance role extraction using a dictionary, mapping entities like "Lessor" to "Landlord."
+*   Implement coreference resolution to accurately link pronouns to identified entities.
+*   Utilize template-based extraction for structured data like dates and amounts.
+*   Use NER to identify dates and numeric amounts.
+*   Improve Semantic Role Labeling for agent-action-patient extraction.
+
+18
+Analyze the provided contract text to extract key details and present them as an easy-to-understand outline. Your output should be a clear and readable outline using bullet points or numbered lists for each category below, designed for someone without legal expertise to easily grasp the contract's essentials. Summarize the extracted information concisely, rephrasing and synthesizing the contract's content in your own words to demonstrate understanding, and strictly avoid directly copying sentences from the contract.
+
+Utilize Named Entity Recognition (NER) to precisely identify names, dates, and amounts. Employ Semantic Role Labeling to understand obligations and actions by identifying agents, patients, and instruments. Use Conditional Dependency Extraction to determine the scope and conditions of contractual requirements.  To enhance accuracy, implement coreference resolution to link pronouns to entities, and use template-based extraction for structured data like dates and payments.
+
+Specifically, identify and outline the following key details:
+
+1.  **Parties Involved:** Use Named Entity Recognition (NER) to identify each party's name and address. Enhance role extraction by using a dictionary to map roles (e.g., "Lessor" to "Landlord"). For each party, extract and present their full name, their role (e.g., Buyer, Seller, Landlord, Tenant, Legal Entity), and their address if provided. Accurately link names, roles, and addresses, especially in contracts with multiple parties or complex roles. Present the extracted party information as follows:
+    *   Party Name: \[Full Name], Role: \[Role], Address: \[Address]
+    If any detail is not explicitly stated, indicate "Not Specified".  Use structured parsing for effective address extraction and perform precise role disambiguation.
+
+2.  **Key Dates:** Use Named Entity Recognition (NER) and template-based extraction to extract all significant dates, including the effective date, commencement date, expiration date, termination date, and any critical deadlines or milestones. For each date, specify its contractual significance or purpose as described in the contract. Handle various date formats and relative dates ("30 days after effective date"), resolving relative dates to absolute dates where possible and standardizing to MM/DD/YYYY format. Output the dates and their significance as follows:
+    *   Date: \[MM/DD/YYYY], Significance: \[Significance]
+    If either the date or its significance is not explicitly stated, indicate "Not Specified". Implement date format standardization to MM/DD/YYYY and accurately resolve relative dates to absolute dates.
+
+3.  **Material Obligations of Each Party:** For each party, summarize their core contractual obligations and responsibilities. Focus on the essential 'must do' actions, deliverables, and commitments critical for the contract's performance. Utilize semantic role labeling and coreference resolution to accurately identify the agent, action, and patient within obligation clauses. Determine the conditional dependencies and scope of each obligation using Conditional Dependency Extraction. List these obligations under each party's name as follows:
+    **\[Party Name]:**
+    *   \[Obligation 1]
+    *   \[Obligation 2]
+    *   ...
+    Capture the core meaning of each obligation by rephrasing and synthesizing the contract's wording, demonstrating understanding of the intent behind each clause. If an obligation is not explicitly stated for a party, indicate "Not Specified". Employ subject-verb-object extraction to identify obligations and incorporate intent analysis.
+
+4.  **Termination Conditions:** Identify and list all conditions under which the contract can be terminated by any party or due to specific circumstances. Provide a concise description of each termination condition, rephrasing to clearly explain the trigger and requirements. Employ semantic similarity analysis to detect variations in phrasing related to termination clauses and ensure comprehensive identification. Enhance the keyword lexicon used for identifying termination conditions. Output the termination conditions as follows:
+    *   \[Termination Condition Description]
+    If no termination conditions are explicitly stated, indicate "Not Specified".
+
+*   Enhance role extraction using a dictionary, mapping entities like "Lessor" to "Landlord."
+*   Implement coreference resolution to accurately link pronouns to identified entities.
+*   Utilize template-based extraction for structured data like dates and amounts.
+*   Use NER to identify dates and numeric amounts.
+*   Improve Semantic Role Labeling for agent-action-patient extraction.
+----ADVICE----
+*   Employ structured parsing for precise address extraction.
+*   Apply date format standardization to MM/DD/YYYY.
+*   Incorporate intent analysis in obligation extraction.
+*   Use semantic similarity analysis for termination clause detection.
+*   Enhance the keyword lexicon used for identifying termination conditions.
+
+19
+Analyze the provided contract text to extract key details and present them as an easy-to-understand outline. Your output should be a clear and readable outline using bullet points or numbered lists for each category below, designed for someone without legal expertise to easily grasp the contract's essentials. Summarize the extracted information concisely, rephrasing and synthesizing the contract's content in your own words to demonstrate understanding, and strictly avoid directly copying sentences from the contract.
+
+Utilize Named Entity Recognition (NER) to precisely identify names, dates, and amounts. Employ Semantic Role Labeling to understand obligations and actions by identifying agents, patients, and instruments. Use Conditional Dependency Extraction to determine the scope and conditions of contractual requirements.  To enhance accuracy, implement coreference resolution to link pronouns to entities, and use template-based extraction for structured data like dates and payments.
+
+Specifically, identify and outline the following key details:
+
+1.  **Parties Involved:** Use Named Entity Recognition (NER) to identify each party's name and address. Enhance role extraction by using a dictionary to map roles (e.g., "Lessor" to "Landlord"). For each party, extract and present their full name, their role (e.g., Buyer, Seller, Landlord, Tenant, Legal Entity), and their address if provided. Ensure accurate association of names, roles, and addresses, particularly in contracts with multiple parties or complex role assignments. Present the extracted party information as follows:
+    *   Party Name: \[Full Name], Role: \[Role], Address: \[Address]
+    If any detail is not explicitly stated, indicate "Not Specified".  Use structured parsing for effective address extraction and perform precise role disambiguation.
+
+2.  **Key Dates:** Use Named Entity Recognition (NER) and template-based extraction to extract all significant dates, including the effective date, commencement date, expiration date, termination date, and any critical deadlines or milestones. For each date, clearly specify the contractual significance or purpose of each date as defined within the contract. Handle various date formats and relative dates ("30 days after effective date"), resolving relative dates to absolute dates where possible and standardizing to MM/DD/YYYY format. Output the dates and their significance as follows:
+    *   Date: \[MM/DD/YYYY], Significance: \[Significance]
+    If either the date or its significance is not explicitly stated, indicate "Not Specified". Implement date format standardization to MM/DD/YYYY and accurately resolve relative dates to absolute dates.
+
+3.  **Material Obligations of Each Party:** For each party, summarize their core contractual obligations and responsibilities. Focus on the essential 'must do' actions, deliverables, and commitments critical for the contract's performance. Utilize semantic role labeling and coreference resolution to accurately identify the agent, action, and patient within obligation clauses. Determine the conditional dependencies and scope of each obligation using Conditional Dependency Extraction. List these obligations under each party's name as follows:
+    **\[Party Name]:**
+    *   \[Obligation 1]
+    *   \[Obligation 2]
+    *   ...
+    Capture the core meaning and intent of each obligation by rephrasing and synthesizing the contract's wording to demonstrate a clear understanding. If an obligation is not explicitly stated for a party, indicate "Not Specified". Employ subject-verb-object extraction to identify obligations and incorporate intent analysis.
+
+4.  **Termination Conditions:** Identify and list all conditions under which the contract can be terminated by any party or due to specific circumstances. Provide a concise and clear description for each termination condition, rephrasing to explicitly explain the trigger and specific requirements. Employ semantic similarity analysis to detect variations in phrasing related to termination clauses and ensure comprehensive and exhaustive identification of all termination conditions. Enhance the keyword lexicon used for identifying termination conditions. Output the termination conditions as follows:
+    *   \[Termination Condition Description]
+    If no termination conditions are explicitly stated, indicate "Not Specified".
+
+*   Employ structured parsing for precise address extraction.
+*   Apply date format standardization to MM/DD/YYYY.
+*   Incorporate intent analysis in obligation extraction.
+*   Use semantic similarity analysis for termination clause detection.
+*   Enhance the keyword lexicon used for identifying termination conditions.
+*   Enhance role extraction using a dictionary, mapping entities like "Lessor" to "Landlord."
+*   Implement coreference resolution to accurately link pronouns to identified entities.
+*   Utilize template-based extraction for structured data like dates and amounts.
+*   Use NER to identify dates and numeric amounts.
+*   Improve Semantic Role Labeling for agent-action-patient extraction.
+----ADVICE----
+*   Refine NER for accurate identification of names and addresses.
+*   Incorporate Conditional Dependency Extraction for scope analysis.
+*   Utilize structured parsing for precise address extraction.
+*   Apply date format standardization to MM/DD/YYYY.
+*   Incorporate intent analysis in obligation extraction.
+*   Use semantic similarity analysis for termination clause detection.
+*   Enhance the keyword lexicon used for identifying termination conditions.
+20
+Analyze the provided contract text to precisely extract key contractual details and present them as a readily understandable outline.  Generate a clear and readable outline using bullet points or numbered lists under each category, designed for comprehension by individuals without legal backgrounds.  Summarize the extracted information concisely, rephrasing and synthesizing the contract's content to demonstrate understanding, while strictly avoiding direct sentence copying from the contract.
+
+Employ Named Entity Recognition (NER) for accurate identification of names, dates, and monetary amounts.  Utilize Semantic Role Labeling to discern obligations and actions by pinpointing agents, actions, and recipients.  Apply Conditional Dependency Extraction to ascertain the scope and conditions of contractual requirements. Enhance precision through coreference resolution to link pronouns to their corresponding entities, and use template-based extraction for structured data such as dates and payments.
+
+Specifically, identify and outline the following critical details:
+
+1.  **Parties Involved:**  Leverage Named Entity Recognition (NER) to identify the full name and address of each party. Enhance role identification using a role dictionary (e.g., mapping "Lessor" to "Landlord"). For each party, extract and present their complete name, designated role (e.g., Buyer, Seller, Landlord, Tenant, Legal Entity), and address if specified in the contract. Ensure precise association between names, roles, and addresses, especially in contracts with multiple parties or complex role assignments. Present the party information as follows:
+    *   Party Name: \[Full Name], Role: \[Role], Address: \[Address]
+    If any detail is not explicitly stated in the contract, indicate "Not Specified". Utilize structured parsing for effective address extraction and perform thorough role disambiguation.
+
+2.  **Key Dates:**  Employ Named Entity Recognition (NER) and template-based extraction to extract all significant dates, including but not limited to the effective date, commencement date, expiration date, and termination date, as well as any critical deadlines or milestones mentioned in the contract. For each extracted date, explicitly state its contractual significance or purpose as defined within the contract. Accurately resolve and standardize all dates to MM/DD/YYYY format, including handling relative dates (e.g., "30 days after effective date") by converting them to absolute dates where possible. Output the dates and their significance as follows:
+    *   Date: \[MM/DD/YYYY], Significance: \[Significance]
+    If either the date or its contractual significance is not explicitly stated, indicate "Not Specified".  Implement date format standardization to MM/DD/YYYY and accurately resolve relative dates to absolute dates.
+
+3.  **Material Obligations of Each Party:** For each party identified, summarize their essential contractual obligations and responsibilities. Focus on the core 'must-do' actions, deliverables, and commitments that are critical for the contract's successful execution. Utilize semantic role labeling and coreference resolution to precisely identify the agent, action, and patient within clauses outlining obligations.  Determine the conditional dependencies and scope of each obligation using Conditional Dependency Extraction.  List these obligations distinctly under each party's name, rephrasing and synthesizing the contract's wording to demonstrate a clear understanding of the core intent.
+    **\[Party Name]:**
+    *   \[Obligation 1]
+    *   \[Obligation 2]
+    *   ...
+    If a material obligation is not explicitly stated for a party, indicate "Not Specified". Employ subject-verb-object extraction to identify obligations and incorporate intent analysis to capture the core meaning.
+
+4.  **Termination Conditions:** Identify and list all conditions under which the contract can be terminated, whether by any party involved or due to specified circumstances. Provide a concise and clear description for each termination condition, rephrasing the contract language to explicitly explain the triggering event and any specific requirements for termination.  Employ semantic similarity analysis to identify variations in phrasing related to termination clauses and ensure comprehensive detection of all termination conditions. Enhance the keyword lexicon used for identifying termination conditions to improve detection accuracy. Output the termination conditions as follows:
+    *   \[Termination Condition Description]
+    If no termination conditions are explicitly stated in the contract, indicate "Not Specified".
+
+*   Refine NER for accurate identification of names and addresses.
+*   Incorporate Conditional Dependency Extraction for scope analysis.
+*   Utilize structured parsing for precise address extraction.
+*   Apply date format standardization to MM/DD/YYYY.
+*   Incorporate intent analysis in obligation extraction.
+*   Use semantic similarity analysis for termination clause detection.
+*   Enhance the keyword lexicon used for identifying termination conditions.
+*   Enhance role extraction using a dictionary, mapping entities like "Lessor" to "Landlord."
+*   Implement coreference resolution to accurately link pronouns to identified entities.
+*   Utilize template-based extraction for structured data like dates and amounts.
+*   Use NER to identify dates and numeric amounts.
+*   Improve Semantic Role Labeling for agent-action-patient extraction.
+----ADVICE----
+Okay, thanks!
+
+21
+Analyze the provided contract text to precisely extract key contractual details and present them as a readily understandable outline.  Generate a clear and readable outline using bullet points or numbered lists under each category, designed for comprehension by individuals without legal backgrounds.  Summarize the extracted information concisely, rephrasing and synthesizing the contract's content to demonstrate understanding, while strictly avoiding direct sentence copying from the contract.
+
+Employ Named Entity Recognition (NER) for accurate identification of names, dates, and monetary amounts.  Utilize Semantic Role Labeling to discern obligations and actions by pinpointing agents, actions, and recipients.  Apply Conditional Dependency Extraction to ascertain the scope and conditions of contractual requirements. Enhance precision through coreference resolution to link pronouns to their corresponding entities, and use template-based extraction for structured data such as dates and payments. Implement structured parsing for precise address extraction. Standardize all extracted dates to MM/DD/YYYY format, converting relative dates to absolute dates where possible.
+
+Specifically, identify and outline the following critical details:
+
+1.  **Parties Involved:**  Identify and extract the full name and address of each party using NER. Enhance role identification using a role dictionary (e.g., mapping "Lessor" to "Landlord"). For each party, present their complete name, designated role, and address if specified in the contract. Ensure precise association between names, roles, and addresses, especially in contracts with multiple parties or complex role assignments. Present the party information as follows:
+    *   Party Name: \[Full Name], Role: \[Role], Address: \[Address]
+    If any detail is not explicitly stated in the contract, indicate "Not Specified".
+
+2.  **Key Dates:**  Extract all significant dates, including but not limited to the effective date, commencement date, expiration date, and termination date, as well as any critical deadlines or milestones mentioned in the contract, using NER and template-based extraction. For each extracted date, explicitly state its contractual significance or purpose as defined within the contract. Accurately resolve and standardize all dates to MM/DD/YYYY format, including handling relative dates (e.g., "30 days after effective date") by converting them to absolute dates where possible. Output the dates and their significance as follows:
+    *   Date: \[MM/DD/YYYY], Significance: \[Significance]
+    If either the date or its contractual significance is not explicitly stated, indicate "Not Specified".
+
+3.  **Material Obligations of Each Party:** For each party identified, summarize their essential contractual obligations and responsibilities. Focus on the core 'must-do' actions, deliverables, and commitments that are critical for the contract's successful execution. Utilize semantic role labeling and coreference resolution to precisely identify the agent, action, and patient within clauses outlining obligations.  Determine the conditional dependencies and scope of each obligation using Conditional Dependency Extraction.  Incorporate intent analysis to capture the core meaning of obligations. List these obligations distinctly under each party's name, rephrasing and synthesizing the contract's wording to demonstrate a clear understanding of the core intent.
+    **\[Party Name]:**
+    *   \[Obligation 1]
+    *   \[Obligation 2]
+    *   ...
+    If a material obligation is not explicitly stated for a party, indicate "Not Specified".
+
+4.  **Termination Conditions:** Identify and list all conditions under which the contract can be terminated, whether by any party involved or due to specified circumstances. Provide a concise and clear description for each termination condition, rephrasing the contract language to explicitly explain the triggering event and any specific requirements for termination.  Employ semantic similarity analysis and enhance the keyword lexicon used for identifying termination conditions to ensure comprehensive detection of termination clauses. Output the termination conditions as follows:
+    *   \[Termination Condition Description]
+    If no termination conditions are explicitly stated in the contract, indicate "Not Specified".
+
+Okay, thanks!
+----ADVICE----
+*   Employ context-aware stemming for obligation extraction.
+*   Refine NER with a location gazetteer for accurate address recognition.
+*   Use a dependency parser for identifying termination conditions related to breaches.
+*   Incorporate an event extraction module for identifying conditions related to missed deadlines.
+*   Use dependency parsing to precisely extract obligation descriptions and agent/action pairs.
+
+22
+Analyze the provided contract text to precisely extract key contractual details and present them as a readily understandable outline. Generate a clear and readable outline using bullet points or numbered lists under each category, designed for comprehension by individuals without legal backgrounds. Summarize the extracted information concisely, rephrasing and synthesizing the contract's content to demonstrate understanding, while strictly avoiding direct sentence copying from the contract.
+
+Employ Named Entity Recognition (NER), refined with a location gazetteer for accurate address recognition, to identify names, dates, monetary amounts, and addresses. Utilize Semantic Role Labeling and dependency parsing to discern obligations and actions by pinpointing agents, actions, and recipients, leveraging context-aware stemming for obligation extraction. Apply Conditional Dependency Extraction to ascertain the scope and conditions of contractual requirements. Enhance precision through coreference resolution to link pronouns to their corresponding entities, and use template-based extraction for structured data such as dates and payments. Implement structured parsing for precise address extraction. Standardize all extracted dates to MM/DD/YYYY format, converting relative dates to absolute dates where possible. Incorporate an event extraction module for identifying conditions related to missed deadlines. Use a dependency parser for identifying termination conditions related to breaches. Enhance the keyword lexicon and employ semantic similarity analysis for comprehensive detection of termination clauses.
+
+Specifically, identify and outline the following critical details:
+
+1.  **Parties Involved:** Identify and extract the full name and address of each party using NER enhanced with a location gazetteer. Enhance role identification using a role dictionary (e.g., mapping "Lessor" to "Landlord"). For each party, present their complete name, designated role, and address if specified in the contract. Ensure precise association between names, roles, and addresses, especially in contracts with multiple parties or complex role assignments. Present the party information as follows:
+    *   Party Name: \[Full Name], Role: \[Role], Address: \[Address]
+    If any detail is not explicitly stated in the contract, indicate "Not Specified".
+
+2.  **Key Dates:** Extract all significant dates, including but not limited to the effective date, commencement date, expiration date, and termination date, as well as any critical deadlines or milestones mentioned in the contract, using NER and template-based extraction. For each extracted date, explicitly state its contractual significance or purpose as defined within the contract. Accurately resolve and standardize all dates to MM/DD/YYYY format, including handling relative dates (e.g., "30 days after effective date") by converting them to absolute dates where possible. Output the dates and their significance as follows:
+    *   Date: \[MM/DD/YYYY], Significance: \[Significance]
+    If either the date or its contractual significance is not explicitly stated, indicate "Not Specified".
+
+3.  **Material Obligations of Each Party:** For each party identified, summarize their essential contractual obligations and responsibilities. Focus on the core 'must-do' actions, deliverables, and commitments that are critical for the contract's successful execution. Utilize semantic role labeling, dependency parsing, coreference resolution, and context-aware stemming to precisely identify the agent, action, and patient within clauses outlining obligations. Determine the conditional dependencies and scope of each obligation using Conditional Dependency Extraction. Incorporate intent analysis to capture the core meaning of obligations. List these obligations distinctly under each party's name, rephrasing and synthesizing the contract's wording to demonstrate a clear understanding of the core intent.
+    **\[Party Name]:**
+    *   \[Obligation 1]
+    *   \[Obligation 2]
+    *   ...
+    If a material obligation is not explicitly stated for a party, indicate "Not Specified".
+
+4.  **Termination Conditions:** Identify and list all conditions under which the contract can be terminated, whether by any party involved or due to specified circumstances. Provide a concise and clear description for each termination condition, rephrasing the contract language to explicitly explain the triggering event and any specific requirements for termination. Employ semantic similarity analysis and enhance the keyword lexicon used for identifying termination conditions to ensure comprehensive detection of termination clauses. Use a dependency parser for identifying termination conditions related to breaches and incorporate an event extraction module for conditions related to missed deadlines. Output the termination conditions as follows:
+    *   \[Termination Condition Description]
+    If no termination conditions are explicitly stated in the contract, indicate "Not Specified".
+----ADVICE----
+*   Refine NER with gazetteers, dictionaries, and role-based rules.
+*   Enhance role assignment using a knowledge graph of entities and relationships.
+*   Resolve relative dates to fixed dates using contextual analysis and arithmetic operations.
+*   Utilize rule-based systems and semantic templates for material obligations.
+*   Implement a taxonomy of termination events for classification.
+
+23
+Analyze the provided contract text to accurately and comprehensively extract key contractual details and present them as an easily understandable and actionable outline. Generate a clear and readable outline using bullet points or numbered lists under each category, specifically designed for clarity and comprehension by individuals without legal backgrounds. Concisely summarize and synthesize the extracted information, rephrasing the contract's content to demonstrate a clear understanding, strictly avoid directly copying sentences from the contract; focus on synthesis and reinterpretation.
+
+Employ Named Entity Recognition (NER), enhanced with a location gazetteer for precise address recognition, to identify key entities such as names, dates, monetary amounts, and addresses. Utilize Semantic Role Labeling and Dependency Parsing to discern obligations and actions. Pinpoint agents, actions, and recipients to understand contractual responsibilities, leveraging context-aware stemming for effective obligation extraction. Apply Conditional Dependency Extraction to ascertain the scope and conditions governing contractual requirements, ensuring a nuanced understanding of stipulations. Enhance extraction precision with coreference resolution to accurately link pronouns to their entities, and employ template-based extraction for structured data like dates and payments, ensuring data consistency. Implement structured parsing techniques for highly precise address extraction, especially in varied address formats. Standardize all extracted dates to MM/DD/YYYY format. Convert relative dates to absolute dates where feasible to ensure clarity and consistency. Incorporate an event extraction module specifically for identifying contractual conditions triggered by events like missed deadlines. Utilize a dependency parser for identifying termination conditions specifically related to breaches of contract terms. Enhance the keyword lexicon and employ semantic similarity analysis for comprehensive detection of termination clauses, even when phrased indirectly or using synonyms.
+
+Specifically, identify and outline the following critical details:
+
+1.  **Parties Involved:** Identify and extract the full name and address of each party using NER enhanced with a location gazetteer. Enhance role identification using a role dictionary (e.g., mapping "Lessor" to "Landlord"). For each party, present their complete name, designated role, and address if specified in the contract. Ensure precise association between names, roles, and addresses, especially in contracts with multiple parties or complex role assignments. Present the party information as follows:
+    *   Party Name: \[Full Name], Role: \[Role], Address: \[Address]
+    If any detail is not explicitly stated in the contract, indicate "Not Specified".
+
+2.  **Key Dates:** Extract all significant dates, including but not limited to the effective date, commencement date, expiration date, and termination date, as well as any critical deadlines or milestones mentioned in the contract, using NER and template-based extraction. For each extracted date, explicitly state its contractual significance or purpose as defined within the contract. Accurately resolve and standardize all dates to MM/DD/YYYY format, including handling relative dates (e.g., "30 days after effective date") by converting them to absolute dates where possible. Output the dates and their significance as follows:
+    *   Date: \[MM/DD/YYYY], Significance: \[Significance]
+    If either the date or its contractual significance is not explicitly stated, indicate "Not Specified".
+
+3.  **Material Obligations of Each Party:** For each party identified, summarize their essential contractual obligations and responsibilities. Focus on the core 'must-do' actions, deliverables, and commitments that are critical for the contract's successful execution. Utilize semantic role labeling, dependency parsing, coreference resolution, and context-aware stemming to precisely identify the agent, action, and patient within clauses outlining obligations. Determine the conditional dependencies and scope of each obligation using Conditional Dependency Extraction. Incorporate intent analysis to capture the core meaning of obligations. List these obligations distinctly under each party's name, rephrasing and synthesizing the contract's wording to demonstrate a clear understanding of the core intent.
+    **\[Party Name]:**
+    *   \[Obligation 1]
+    *   \[Obligation 2]
+    *   ...
+    If a material obligation is not explicitly stated for a party, indicate "Not Specified".
+
+4.  **Termination Conditions:** Identify and list all conditions under which the contract can be terminated, whether by any party involved or due to specified circumstances. Provide a concise and clear description for each termination condition, rephrasing the contract language to explicitly explain the triggering event and any specific requirements for termination. Employ semantic similarity analysis and enhance the keyword lexicon used for identifying termination conditions to ensure comprehensive detection of termination clauses. Use a dependency parser for identifying termination conditions related to breaches and incorporate an event extraction module for conditions related to missed deadlines. Output the termination conditions as follows:
+    *   \[Termination Condition Description]
+    If no termination conditions are explicitly stated in the contract, indicate "Not Specified".
+
+*   Refine NER with gazetteers, dictionaries, and role-based rules.
+*   Enhance role assignment using a knowledge graph of entities and relationships.
+*   Resolve relative dates to fixed dates using contextual analysis and arithmetic operations.
+*   Utilize rule-based systems and semantic templates for material obligations.
+*   Implement a taxonomy of termination events for classification.
+----ADVICE----
+*   Employ advanced NER with gazetteers and role-based rules for parties.
+*   Create knowledge graph for roles and relationships.
+*   Convert relative dates to absolute using context and arithmetic.
+*   Apply semantic templates and rule-based systems for material obligations.
+*   Develop a taxonomy of termination events.
+*   Utilize context-aware stemming for obligation extraction.
+*   Apply conditional dependency extraction for scope.
+*   Incorporate coreference resolution for pronouns.
+*   Use template-based extraction for structured data.
+*   Employ structured parsing for address extraction.
+*   Standardize dates to MM/DD/YYYY.
+*   Implement event extraction for conditions.
+*   Utilize dependency parser for terminations.
+*   Enhance keyword lexicon for terminations.
+24
+Analyze the provided contract text to extract key contractual details and present them as an easily understandable and actionable outline. Generate a clear and readable outline with bullet points or numbered lists under each category. Summarize and synthesize the extracted information, rephrasing the contract's content to demonstrate understanding and avoid copying sentences directly from the contract; focus on synthesis and reinterpretation.
+
+Employ Named Entity Recognition (NER) with a location gazetteer for precise address recognition to identify names, dates, monetary amounts, and addresses. Utilize Semantic Role Labeling and Dependency Parsing to discern obligations and actions, pinpointing agents, actions, and recipients. Leverage context-aware stemming for obligation extraction, Conditional Dependency Extraction for scope, and coreference resolution for pronoun linking. Employ template-based extraction for structured data (dates, payments) and structured parsing for precise address extraction. Standardize dates to MM/DD/YYYY and convert relative dates to absolute dates where feasible. Incorporate event extraction for conditions triggered by events and dependency parsing for termination conditions related to breaches. Enhance the keyword lexicon and use semantic similarity analysis for comprehensive termination clause detection.
+
+Specifically, identify and outline the following critical details:
+
+1.  **Parties Involved:** Identify and extract the full name and address of each party using NER enhanced with a location gazetteer. Enhance role identification using a role dictionary (e.g., mapping "Lessor" to "Landlord"). For each party, present their complete name, designated role, and address if specified. Ensure precise association between names, roles, and addresses. Present the party information as follows:
+    *   Party Name: \[Full Name], Role: \[Role], Address: \[Address]
+    If any detail is not explicitly stated in the contract, indicate "Not Specified".
+
+2.  **Key Dates:** Extract all significant dates, including effective, commencement, expiration, and termination dates, as well as critical deadlines or milestones, using NER and template-based extraction. For each date, explicitly state its contractual significance. Standardize all dates to MM/DD/YYYY format, converting relative dates (e.g., "30 days after effective date") to absolute dates where possible. Output the dates and their significance as follows:
+    *   Date: \[MM/DD/YYYY], Significance: \[Significance]
+    If either the date or its significance is not explicitly stated, indicate "Not Specified".
+
+3.  **Material Obligations of Each Party:** For each party, summarize their essential contractual obligations. Focus on core 'must-do' actions, deliverables, and commitments critical for the contract's execution. Utilize semantic role labeling, dependency parsing, coreference resolution, and context-aware stemming to identify agents, actions, and patients in obligation clauses. Determine conditional dependencies and scope using Conditional Dependency Extraction. Incorporate intent analysis to capture the core meaning of obligations. List these obligations distinctly under each party's name, rephrasing and synthesizing the contract's wording.
+    **\[Party Name]:**
+    *   \[Obligation 1]
+    *   \[Obligation 2]
+    *   ...
+    If a material obligation is not explicitly stated for a party, indicate "Not Specified".
+
+4.  **Termination Conditions:** Identify and list all conditions under which the contract can be terminated, whether by any party or due to circumstances. Provide a concise description for each termination condition, rephrasing the contract language to explain the triggering event and requirements. Employ semantic similarity analysis and enhance the keyword lexicon for comprehensive detection of termination clauses. Use a dependency parser for breach-related terminations and event extraction for deadline-related terminations. Output the termination conditions as follows:
+    *   \[Termination Condition Description]
+    If no termination conditions are explicitly stated, indicate "Not Specified".
+
+*   Employ advanced NER with gazetteers and role-based rules for parties.
+*   Create knowledge graph for roles and relationships.
+*   Convert relative dates to absolute using context and arithmetic.
+*   Apply semantic templates and rule-based systems for material obligations.
+*   Develop a taxonomy of termination events.
+*   Utilize context-aware stemming for obligation extraction.
+*   Apply conditional dependency extraction for scope.
+*   Incorporate coreference resolution for pronouns.
+*   Use template-based extraction for structured data.
+*   Employ structured parsing for address extraction.
+*   Standardize dates to MM/DD/YYYY.
+*   Implement event extraction for conditions.
+*   Utilize dependency parser for terminations.
+*   Enhance keyword lexicon for terminations.
+----ADVICE----
+*   Employ relation extraction to connect entities.
+*   Utilize LLM-based summarization with custom prompt engineering.
+*   For unclear obligations, mark for human review.
+*   For implied conditions, prompt for clarification.
+*   Incorporate chain-of-thought reasoning to infer conditions.
+25
+Analyze the provided contract text to extract key contractual details and present them as an easily understandable and actionable outline. Generate a clear and readable outline using bullet points or numbered lists under each category.  Crucially, *summarize and synthesize* the extracted information, *rephrasing the contract's content* to demonstrate understanding and *avoid copying sentences directly*. Focus on synthesis and reinterpretation to create an easily digestible output.
+
+Employ advanced NLP techniques including Named Entity Recognition (NER) with a location gazetteer for precise address recognition to identify names, dates, monetary amounts, and addresses. Utilize Semantic Role Labeling and Dependency Parsing to discern obligations and actions, pinpointing agents, actions, and recipients. Leverage context-aware stemming for obligation extraction, Conditional Dependency Extraction for scope, and coreference resolution for pronoun linking. Employ template-based extraction for structured data (dates, payments) and structured parsing for precise address extraction. Standardize dates to MM/DD/YYYY and convert relative dates to absolute dates where feasible. Incorporate event extraction for conditions triggered by events and dependency parsing for termination conditions related to breaches. Enhance the keyword lexicon and use semantic similarity analysis for comprehensive termination clause detection.
+
+Specifically, identify and outline the following critical details, always prioritizing synthesis and reinterpretation:
+
+1.  **Parties Involved:** Identify and extract the full name and address of each party using NER enhanced with a location gazetteer. Enhance role identification using a role dictionary (e.g., mapping "Lessor" to "Landlord"). For each party, present their complete name, designated role, and address if specified. Ensure precise association between names, roles, and addresses. *Rephrase and synthesize* this information; do not copy directly. Present the party information as follows:
+    *   Party Name: \[Full Name], Role: \[Role], Address: \[Address]
+    If any detail is not explicitly stated in the contract, indicate "Not Specified".
+
+2.  **Key Dates:** Extract all significant dates, including effective, commencement, expiration, and termination dates, as well as critical deadlines or milestones, using NER and template-based extraction. For each date, explicitly state its contractual significance. Standardize all dates to MM/DD/YYYY format, converting relative dates (e.g., "30 days after effective date") to absolute dates where possible. *Summarize and rephrase* the significance in your own words. Output the dates and their significance as follows:
+    *   Date: \[MM/DD/YYYY], Significance: \[Significance]
+    If either the date or its significance is not explicitly stated, indicate "Not Specified".
+
+3.  **Material Obligations of Each Party:** For each party, *summarize* their essential contractual obligations. Focus on core 'must-do' actions, deliverables, and commitments critical for the contract's execution. Utilize semantic role labeling, dependency parsing, coreference resolution, and context-aware stemming to identify agents, actions, and patients in obligation clauses. Determine conditional dependencies and scope using Conditional Dependency Extraction. Incorporate intent analysis to capture the core meaning of obligations. List these obligations distinctly under each party's name, *rephrasing and synthesizing the contract's wording*.
+    **\[Party Name]:**
+    *   \[Obligation 1]
+    *   \[Obligation 2]
+    *   ...
+    If a material obligation is not explicitly stated for a party, indicate "Not Specified".
+
+4.  **Termination Conditions:** Identify and list all conditions under which the contract can be terminated, whether by any party or due to circumstances. Provide a concise description for each termination condition, *rephrasing the contract language* to explain the triggering event and requirements. Employ semantic similarity analysis and enhance the keyword lexicon for comprehensive detection of termination clauses. Use a dependency parser for breach-related terminations and event extraction for deadline-related terminations. Output the termination conditions as follows:
+    *   \[Termination Condition Description]
+    If no termination conditions are explicitly stated, indicate "Not Specified".
+
+*   Employ advanced NER with gazetteers and role-based rules for parties.
+*   Create knowledge graph for roles and relationships.
+*   Convert relative dates to absolute using context and arithmetic.
+*   Apply semantic templates and rule-based systems for material obligations.
+*   Develop a taxonomy of termination events.
+*   Utilize context-aware stemming for obligation extraction.
+*   Apply conditional dependency extraction for scope.
+*   Incorporate coreference resolution for pronouns.
+*   Use template-based extraction for structured data.
+*   Employ structured parsing for address extraction.
+*   Standardize dates to MM/DD/YYYY.
+*   Implement event extraction for conditions.
+*   Utilize dependency parser for terminations.
+*   Enhance keyword lexicon for terminations.
+
+*   Employ relation extraction to connect entities.
+*   Utilize LLM-based summarization with custom prompt engineering.
+*   For unclear obligations, mark for human review.
+*   For implied conditions, prompt for clarification.
+*   Incorporate chain-of-thought reasoning to infer conditions.
+----ADVICE----
+*   **Party Information:** Utilize NER to identify and standardize names and addresses, focusing on distinguishing parties and their roles.
+*   **Date Extraction:** Improve accuracy by mapping date phrases. Use regex and rule-based extraction to find dates.
+*   **Obligation Mining:** Apply semantic parsing. Focus on sentences with "must," "shall," or "agree."
+*   **Termination Clause Detection:** Use machine learning techniques like sequence labeling.
+
+26
+Analyze the provided contract text to extract key contractual details and present them as an easily understandable and actionable outline. Generate a clear and readable outline using bullet points or numbered lists under each category.  Crucially, *summarize and synthesize* the extracted information, *rephrasing the contract's content* to demonstrate understanding and *avoid copying sentences directly*. Focus on synthesis and reinterpretation to create an easily digestible output.
+
+Employ advanced NLP techniques including Named Entity Recognition (NER) with a location gazetteer for precise address recognition to identify names, dates, monetary amounts, and addresses. Utilize Semantic Role Labeling and Dependency Parsing to discern obligations and actions, pinpointing agents, actions, and recipients. Leverage context-aware stemming for obligation extraction, Conditional Dependency Extraction for scope, and coreference resolution for pronoun linking. Employ template-based extraction for structured data (dates, payments) and structured parsing for precise address extraction. Standardize dates to MM/DD/YYYY and convert relative dates to absolute dates where feasible. Incorporate event extraction for conditions triggered by events and dependency parsing for termination conditions related to breaches. Enhance the keyword lexicon and use semantic similarity analysis for comprehensive termination clause detection.
+
+Specifically, identify and outline the following critical details, always prioritizing synthesis and reinterpretation:
+
+1.  **Parties Involved:** Identify and extract the full name and address of each party using NER enhanced with a location gazetteer. Enhance role identification using a role dictionary (e.g., mapping "Lessor" to "Landlord") and role-based rules. *Utilize NER to identify and standardize names and addresses, focusing on distinguishing parties and their roles.* For each party, present their complete name, designated role, and address if specified. Ensure precise association between names, roles, and addresses. *Rephrase and synthesize* this information; do not copy directly. Present the party information as follows:
+    *   Party Name: \[Full Name], Role: \[Role], Address: \[Address]
+    If any detail is not explicitly stated in the contract, indicate "Not Specified".
+
+2.  **Key Dates:** Extract all significant dates, including effective, commencement, expiration, and termination dates, as well as critical deadlines or milestones, using NER and template-based extraction. *Improve accuracy by mapping date phrases. Use regex and rule-based extraction to find dates.* For each date, explicitly state its contractual significance. Standardize all dates to MM/DD/YYYY format, converting relative dates (e.g., "30 days after effective date") to absolute dates where possible using contextual understanding and arithmetic reasoning. *Summarize and rephrase* the significance in your own words. Output the dates and their significance as follows:
+    *   Date: \[MM/DD/YYYY], Significance: \[Significance]
+    If either the date or its significance is not explicitly stated, indicate "Not Specified".
+
+3.  **Material Obligations of Each Party:** For each party, *summarize* their essential contractual obligations. Focus on core 'must-do' actions, deliverables, and commitments critical for the contract's execution. Utilize semantic role labeling, dependency parsing, coreference resolution, and context-aware stemming to identify agents, actions, and patients in obligation clauses. Determine conditional dependencies and scope using Conditional Dependency Extraction. Incorporate intent analysis to capture the core meaning of obligations. *Apply semantic parsing. Focus on sentences containing obligation keywords like "must," "shall," or "agree."* List these obligations distinctly under each party's name, *rephrasing and synthesizing the contract's wording*.
+    **\[Party Name]:**
+    *   \[Obligation 1]
+    *   \[Obligation 2]
+    *   ...
+    If a material obligation is not explicitly stated for a party, indicate "Not Specified". For unclear obligations, mark them for human review.
+
+4.  **Termination Conditions:** Identify and list all conditions under which the contract can be terminated, whether by any party or due to circumstances. Provide a concise description for each termination condition, *rephrasing the contract language* to explain the triggering event and requirements. Employ semantic similarity analysis and enhance the keyword lexicon for comprehensive detection of termination clauses. Use a dependency parser for breach-related terminations and event extraction for deadline-related terminations. *Utilize machine learning techniques like sequence labeling for enhanced termination clause detection.* Output the termination conditions as follows:
+    *   \[Termination Condition Description]
+    If no termination conditions are explicitly stated, indicate "Not Specified". For implied conditions, prompt for clarification or use chain-of-thought reasoning to infer conditions where appropriate.
+
+*   Employ advanced NER with gazetteers and role-based rules for parties.
+*   Create knowledge graph for roles and relationships to aid in party identification.
+*   Convert relative dates to absolute dates using context and arithmetic.
+*   Apply semantic templates and rule-based systems for material obligations.
+*   Develop a taxonomy of termination events to categorize and understand termination clauses.
+*   Utilize context-aware stemming for obligation extraction to handle variations in wording.
+*   Apply conditional dependency extraction for scope to understand the context of obligations.
+*   Incorporate coreference resolution for pronouns to link mentions of parties and obligations.
+*   Use template-based extraction for structured data like dates and payments.
+*   Employ structured parsing for precise address extraction.
+*   Standardize dates to MM/DD/YYYY format for consistency.
+*   Implement event extraction for conditions triggered by specific events.
+*   Utilize dependency parser for terminations related to breaches of contract.
+*   Enhance keyword lexicon for terminations to capture a wider range of termination clauses.
+*   Employ relation extraction to connect entities like parties, dates, and obligations.
+*   Utilize LLM-based summarization with custom prompt engineering for concise outputs.
+*   For unclear obligations, mark for human review to ensure accuracy.
+*   For implied conditions, prompt for clarification or use chain-of-thought reasoning.
+*   Incorporate chain-of-thought reasoning to infer conditions and complex relationships within the contract.
+----ADVICE----
+- Enhance NER using a domain-specific dictionary for legal entities and roles.
+- Implement date normalization using regular expressions and rule-based systems.
+- Improve obligation extraction using a combination of syntactic parsing and semantic role labeling.
+- Use a dependency parser for identifying triggers.
+- Develop an information extraction to capture specific payment terms.
+- Use semantic similarity to identify termination clauses.
+
+27
+Analyze the provided contract text to extract key contractual details and present them as an easily understandable and actionable outline. Generate a clear and readable outline using bullet points or numbered lists under each category.  Critically, *summarize and synthesize* the extracted information, *rephrasing the contract's content* to demonstrate understanding and *avoid copying sentences directly*. Focus on synthesis and reinterpretation to create an easily digestible output.
+
+Employ advanced NLP techniques including Named Entity Recognition (NER) with a location gazetteer for precise address recognition to identify names, dates, monetary amounts, and addresses. Utilize Semantic Role Labeling and Dependency Parsing to discern obligations and actions, pinpointing agents, actions, and recipients. Leverage context-aware stemming for obligation extraction, Conditional Dependency Extraction for scope, and coreference resolution for pronoun linking. Employ template-based extraction for structured data (dates, payments) and structured parsing for precise address extraction. Standardize dates to MM/DD/YYYY and convert relative dates to absolute dates where feasible. Incorporate event extraction for conditions triggered by events and dependency parsing for termination conditions related to breaches. Enhance the keyword lexicon and use semantic similarity analysis for comprehensive termination clause detection.
+
+Specifically, identify and outline the following critical details, always prioritizing synthesis and reinterpretation:
+
+1.  **Parties Involved:** Identify and extract the full name and address of each party using NER enhanced with a location gazetteer. Enhance role identification using a role dictionary (e.g., mapping "Lessor" to "Landlord") and role-based rules. *Utilize NER to identify and standardize names and addresses, focusing on distinguishing parties and their roles.* For each party, present their complete name, designated role, and address if specified, rephrasing and synthesizing this information without direct copying. Present as:
+    *   Party Name: \[Full Name], Role: \[Role], Address: \[Address]
+    If any detail is not explicitly stated, indicate "Not Specified".
+
+2.  **Key Dates:** Extract all significant dates, including effective, commencement, expiration, and termination dates, as well as critical deadlines or milestones, using NER and template-based extraction. *Improve accuracy by mapping date phrases. Use regex and rule-based extraction to find dates.* For each date, explicitly state its contractual significance, summarizing and rephrasing the significance. Standardize all dates to MM/DD/YYYY format, converting relative dates (e.g., "30 days after effective date") to absolute dates where possible using contextual understanding and arithmetic reasoning. Output as:
+    *   Date: \[MM/DD/YYYY], Significance: \[Significance]
+    If either the date or its significance is not explicitly stated, indicate "Not Specified".
+
+3.  **Material Obligations of Each Party:** For each party, *summarize* their essential contractual obligations, focusing on core 'must-do' actions, deliverables, and commitments critical for the contract's execution. Utilize semantic role labeling, dependency parsing, coreference resolution, and context-aware stemming to identify agents, actions, and patients in obligation clauses. Determine conditional dependencies and scope using Conditional Dependency Extraction. Incorporate intent analysis to capture the core meaning of obligations. *Apply semantic parsing. Focus on sentences containing obligation keywords like "must," "shall," or "agree."* List these obligations distinctly under each party's name, *rephrasing and synthesizing the contract's wording* without direct copying.
+    **\[Party Name]:**
+    *   \[Obligation 1]
+    *   \[Obligation 2]
+    *   ...
+    If a material obligation is not explicitly stated for a party, indicate "Not Specified". For unclear obligations, mark them for human review.
+
+4.  **Termination Conditions:** Identify and list all conditions under which the contract can be terminated, whether by any party or due to circumstances. Provide a concise description for each termination condition, *rephrasing the contract language* to explain the triggering event and requirements without direct copying. Employ semantic similarity analysis and enhance the keyword lexicon for comprehensive detection of termination clauses. Use a dependency parser for breach-related terminations and event extraction for deadline-related terminations. *Utilize machine learning techniques like sequence labeling for enhanced termination clause detection.* Output as:
+    *   \[Termination Condition Description]
+    If no termination conditions are explicitly stated, indicate "Not Specified". For implied conditions, prompt for clarification or use chain-of-thought reasoning to infer conditions where appropriate.
+
+*Advice for Implementation:*
+- Enhance NER using a domain-specific dictionary for legal entities and roles.
+- Implement date normalization using regular expressions and rule-based systems.
+- Improve obligation extraction using a combination of syntactic parsing and semantic role labeling.
+- Use a dependency parser for identifying triggers.
+- Develop an information extraction to capture specific payment terms.
+- Use semantic similarity to identify termination clauses.
+----ADVICE----
+*   Improve NER for legal entities using domain-specific dictionaries.
+
+*   Enhance date normalization with regex and rule-based systems.
+
+*   Combine parsing with semantic role labeling for obligation extraction.
+
+*   Use a dependency parser to identify triggering terms.
+
+*   Develop information extraction focused on payment terms.
+
+*   Apply semantic similarity for comprehensive termination clause detection.
+
+28
+Analyze the provided contract text to extract key contractual details and present them as an easily understandable and actionable outline. Generate a clear and readable outline using bullet points or numbered lists under each category. Critically, *summarize and synthesize* the extracted information, *rephrasing the contract's content* to demonstrate understanding and *avoid copying sentences directly*. Focus on synthesis and reinterpretation to create an easily digestible output.
+
+Employ advanced NLP techniques including Named Entity Recognition (NER) with a location gazetteer for precise address recognition to identify names, dates, monetary amounts, and addresses. Utilize Semantic Role Labeling and Dependency Parsing to discern obligations and actions, pinpointing agents, actions, and recipients. Leverage context-aware stemming for obligation extraction, Conditional Dependency Extraction for scope, and coreference resolution for pronoun linking. Employ template-based extraction for structured data (dates, payments) and structured parsing for precise address extraction. Standardize dates to MM/DD/YYYY and convert relative dates to absolute dates where feasible. Incorporate event extraction for conditions triggered by events and dependency parsing for termination conditions related to breaches. Enhance the keyword lexicon and use semantic similarity analysis for comprehensive termination clause detection.
+
+Specifically, identify and outline the following critical details, always prioritizing synthesis and reinterpretation:
+
+1.  **Parties Involved:** Identify and extract the full name and address of each party using NER enhanced with a location gazetteer. Enhance role identification using a role dictionary (e.g., mapping "Lessor" to "Landlord") and role-based rules. *Utilize NER to identify and standardize names and addresses, focusing on distinguishing parties and their roles.* For each party, present their complete name, designated role, and address if specified, *synthesizing and rephrasing* this information without direct sentence replication from the contract. Present as:
+    *   Party Name: \[Full Name], Role: \[Role], Address: \[Address]
+    If any detail is not explicitly stated, indicate "Not Specified".
+
+2.  **Key Dates:** Extract all significant dates, including effective, commencement, expiration, and termination dates, as well as critical deadlines or milestones, using NER and template-based extraction. *Improve accuracy by mapping date phrases. Use regex and rule-based extraction to find dates.* For each date, explicitly state its contractual significance, *summarizing and rephrasing* this significance in your own words. Standardize all dates to MM/DD/YYYY format, converting relative dates (e.g., "30 days after effective date") to absolute dates where possible using contextual understanding and arithmetic reasoning. Output as:
+    *   Date: \[MM/DD/YYYY], Significance: \[Significance]
+    If either the date or its significance is not explicitly stated, indicate "Not Specified".
+
+3.  **Material Obligations of Each Party:** For each party, *synthesize and summarize* their essential contractual obligations, focusing on core 'must-do' actions, deliverables, and commitments critical for the contract's execution. Utilize semantic role labeling, dependency parsing, coreference resolution, and context-aware stemming to identify agents, actions, and patients in obligation clauses. Determine conditional dependencies and scope using Conditional Dependency Extraction. Incorporate intent analysis to capture the core meaning of obligations. *Apply semantic parsing. Focus on sentences containing obligation keywords like "must," "shall," or "agree."* List these obligations distinctly under each party's name, *rephrasing and synthesizing the contract's wording* into concise bullet points, avoiding direct sentence copying.
+    **\[Party Name]:**
+    *   \[Obligation 1]
+    *   \[Obligation 2]
+    *   ...
+    If a material obligation is not explicitly stated for a party, indicate "Not Specified". For unclear obligations, mark them for human review.
+
+4.  **Termination Conditions:** Identify and list all conditions under which the contract can be terminated, whether by any party or due to circumstances. Provide a concise description for each termination condition, *rephrasing the contract language and synthesizing the information* to explain the triggering event and requirements without directly copying phrases or sentences. Employ semantic similarity analysis and enhance the keyword lexicon for comprehensive detection of termination clauses. Use a dependency parser for breach-related terminations and event extraction for deadline-related terminations. *Utilize machine learning techniques like sequence labeling for enhanced termination clause detection.* Output as:
+    *   \[Termination Condition Description]
+    If no termination conditions are explicitly stated, indicate "Not Specified". For implied conditions, prompt for clarification or use chain-of-thought reasoning to infer conditions where appropriate.
+
+*Advice for Implementation:*
+*   Improve NER for legal entities using domain-specific dictionaries.
+*   Enhance date normalization with regex and rule-based systems.
+*   Combine parsing with semantic role labeling for obligation extraction.
+*   Use a dependency parser to identify triggering terms.
+*   Develop information extraction focused on payment terms.
+*   Apply semantic similarity for comprehensive termination clause detection.
+----ADVICE----
+*Employ a semantic similarity to enhance the understanding of lease conditions; also consider dependency parsing to better extract the relationships between entities (parties, locations, costs).*
+
+29
